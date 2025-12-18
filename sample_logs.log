@@ -1,0 +1,1500 @@
+2025-11-29 20:23:26 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-11-29 20:36:52 [INFO] [AuthService] - Request processed in 142ms.
+2025-11-29 20:50:18 [INFO] [DataProcessor] - Request processed in 17ms.
+2025-11-29 21:03:45 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/74.
+2025-11-29 21:17:11 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-11-29 21:30:38 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-11-29 21:44:04 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-11-29 21:57:30 [WARNING] [PaymentGateway] - Configuration key 'user:profile:781' not found, using default.
+2025-11-29 22:10:57 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:868.
+2025-11-29 22:24:23 [WARNING] [PaymentGateway] - Database connection pool nearing capacity.
+2025-11-29 22:37:50 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/51.
+2025-11-29 22:51:16 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-11-29 23:04:42 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-11-29 23:18:09 [INFO] [APIServer] - User 327 logged in successfully.
+2025-11-29 23:31:35 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-11-29 23:45:02 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-11-29 23:58:28 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-11-30 00:11:54 [INFO] [APIServer] - Request processed in 29ms.
+2025-11-30 00:25:21 [WARNING] [AuthService] - Configuration key 'user:profile:741' not found, using default.
+2025-11-30 00:38:47 [INFO] [APIServer] - Configuration loaded from environment.
+2025-11-30 00:52:14 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-11-30 01:05:40 [INFO] [FrontendRouter] - Request processed in 27ms.
+2025-11-30 01:19:06 [INFO] [PaymentGateway] - User 310 logged in successfully.
+2025-11-30 01:32:33 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-11-30 01:45:59 [INFO] [AuthService] - User 377 logged in successfully.
+2025-11-30 01:59:26 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-11-30 02:12:52 [WARNING] [FrontendRouter] - Configuration key 'user:profile:971' not found, using default.
+2025-11-30 02:26:18 [DEBUG] [AuthService] - Cache miss for key: user:profile:865.
+2025-11-30 02:39:45 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/57.
+2025-11-30 02:53:11 [WARNING] [PaymentGateway] - Configuration key 'user:profile:970' not found, using default.
+2025-11-30 03:06:38 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-11-30 03:20:04 [DEBUG] [DBConnection] - Cache miss for key: user:profile:595.
+2025-11-30 03:33:30 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 03:46:57 [INFO] [APIServer] - Request processed in 91ms.
+2025-11-30 04:00:23 [DEBUG] [DBConnection] - Cache miss for key: user:profile:738.
+2025-11-30 04:13:50 [ERROR] [DataProcessor] - Payment failed for user 493, reason: Insufficient funds.
+2025-11-30 04:27:16 [DEBUG] [AuthService] - Checking permissions for user: 698
+2025-11-30 04:40:42 [INFO] [FrontendRouter] - Request processed in 193ms.
+2025-11-30 04:54:09 [INFO] [DBConnection] - Request processed in 450ms.
+2025-11-30 05:07:35 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-11-30 05:21:02 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:680.
+2025-11-30 05:34:28 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-11-30 05:47:54 [WARNING] [PaymentGateway] - Database connection pool nearing capacity.
+2025-11-30 06:01:21 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 06:14:47 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-11-30 06:28:14 [INFO] [DataProcessor] - User 283 logged in successfully.
+2025-11-30 06:41:40 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-11-30 06:55:06 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-11-30 07:08:33 [DEBUG] [DBConnection] - Checking permissions for user: 230
+2025-11-30 07:21:59 [WARNING] [FrontendRouter] - API response time degradation detected: 496ms.
+2025-11-30 07:35:26 [INFO] [APIServer] - Request processed in 350ms.
+2025-11-30 07:48:52 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:309.
+2025-11-30 08:02:18 [INFO] [FrontendRouter] - Request processed in 102ms.
+2025-11-30 08:15:45 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-11-30 08:29:11 [INFO] [DBConnection] - Request processed in 374ms.
+2025-11-30 08:42:38 [INFO] [DBConnection] - Request processed in 493ms.
+2025-11-30 08:56:04 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/83.
+2025-11-30 09:09:30 [INFO] [PaymentGateway] - User 506 logged in successfully.
+2025-11-30 09:22:57 [INFO] [AuthService] - Configuration loaded from environment.
+2025-11-30 09:36:23 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-11-30 09:49:50 [INFO] [DataProcessor] - Request processed in 483ms.
+2025-11-30 10:03:16 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:158.
+2025-11-30 10:16:42 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-11-30 10:30:09 [INFO] [APIServer] - Configuration loaded from environment.
+2025-11-30 10:43:35 [INFO] [AuthService] - Configuration loaded from environment.
+2025-11-30 10:57:02 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-11-30 11:10:28 [DEBUG] [DBConnection] - Checking permissions for user: 222
+2025-11-30 11:23:54 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-11-30 11:37:21 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:994.
+2025-11-30 11:50:47 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 12:04:14 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-11-30 12:17:40 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-11-30 12:31:06 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 12:44:33 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-11-30 12:57:59 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-11-30 13:11:26 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/97.
+2025-11-30 13:24:52 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-11-30 13:38:18 [DEBUG] [DataProcessor] - Checking permissions for user: 823
+2025-11-30 13:51:45 [INFO] [AuthService] - User 116 logged in successfully.
+2025-11-30 14:05:11 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:942.
+2025-11-30 14:18:38 [WARNING] [DataProcessor] - Configuration key 'user:profile:115' not found, using default.
+2025-11-30 14:32:04 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-11-30 14:45:30 [INFO] [DBConnection] - User 258 logged in successfully.
+2025-11-30 14:58:57 [DEBUG] [AuthService] - Checking permissions for user: 248
+2025-11-30 15:12:23 [DEBUG] [DataProcessor] - Checking permissions for user: 906
+2025-11-30 15:25:50 [WARNING] [PaymentGateway] - API response time degradation detected: 366ms.
+2025-11-30 15:39:16 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/93.
+2025-11-30 15:52:42 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-11-30 16:06:09 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-11-30 16:19:35 [ERROR] [FrontendRouter] - Payment failed for user 693, reason: Insufficient funds.
+2025-11-30 16:33:02 [INFO] [FrontendRouter] - User 981 logged in successfully.
+2025-11-30 16:46:28 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-11-30 16:59:54 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-11-30 17:13:21 [INFO] [AuthService] - Request processed in 206ms.
+2025-11-30 17:26:47 [INFO] [DataProcessor] - Request processed in 235ms.
+2025-11-30 17:40:14 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-11-30 17:53:40 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-11-30 18:07:06 [INFO] [DataProcessor] - User 777 logged in successfully.
+2025-11-30 18:20:33 [INFO] [APIServer] - User 678 logged in successfully.
+2025-11-30 18:33:59 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-11-30 18:47:26 [WARNING] [PaymentGateway] - Configuration key 'user:profile:900' not found, using default.
+2025-11-30 19:00:52 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 19:14:18 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-11-30 19:27:45 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 19:41:11 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-11-30 19:54:38 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-11-30 20:08:04 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-11-30 20:21:30 [INFO] [AuthService] - Request processed in 432ms.
+2025-11-30 20:34:57 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-11-30 20:48:23 [INFO] [DataProcessor] - User 299 logged in successfully.
+2025-11-30 21:01:50 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-11-30 21:15:16 [WARNING] [AuthService] - Configuration key 'user:profile:157' not found, using default.
+2025-11-30 21:28:42 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-11-30 21:42:09 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-11-30 21:55:35 [INFO] [DataProcessor] - Request processed in 121ms.
+2025-11-30 22:09:02 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-11-30 22:22:28 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:329.
+2025-11-30 22:35:54 [INFO] [AuthService] - User 755 logged in successfully.
+2025-11-30 22:49:21 [INFO] [DBConnection] - Request processed in 333ms.
+2025-11-30 23:02:47 [WARNING] [APIServer] - API response time degradation detected: 329ms.
+2025-11-30 23:16:14 [INFO] [APIServer] - User 708 logged in successfully.
+2025-11-30 23:29:40 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-11-30 23:43:06 [INFO] [PaymentGateway] - Request processed in 176ms.
+2025-11-30 23:56:33 [DEBUG] [APIServer] - Cache miss for key: user:profile:480.
+2025-12-01 00:09:59 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:813.
+2025-12-01 00:23:26 [INFO] [AuthService] - Request processed in 190ms.
+2025-12-01 00:36:52 [ERROR] [DataProcessor] - Payment failed for user 102, reason: Insufficient funds.
+2025-12-01 00:50:18 [INFO] [APIServer] - Request processed in 63ms.
+2025-12-01 01:03:45 [INFO] [APIServer] - Request processed in 28ms.
+2025-12-01 01:17:11 [INFO] [DBConnection] - User 471 logged in successfully.
+2025-12-01 01:30:38 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/50.
+2025-12-01 01:44:04 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-01 01:57:30 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-01 02:10:57 [INFO] [DataProcessor] - Request processed in 226ms.
+2025-12-01 02:24:23 [DEBUG] [DBConnection] - Cache miss for key: user:profile:343.
+2025-12-01 02:37:50 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-01 02:51:16 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-01 03:04:42 [ERROR] [AuthService] - Unhandled exception in AuthService: NullPointerException.
+2025-12-01 03:18:09 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-01 03:31:35 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-01 03:45:02 [ERROR] [AuthService] - Unhandled exception in AuthService: IllegalArgumentException.
+2025-12-01 03:58:28 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:546.
+2025-12-01 04:11:54 [DEBUG] [DBConnection] - Cache miss for key: user:profile:615.
+2025-12-01 04:25:21 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-01 04:38:47 [INFO] [DataProcessor] - Request processed in 273ms.
+2025-12-01 04:52:14 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-01 05:05:40 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/78.
+2025-12-01 05:19:06 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-01 05:32:33 [DEBUG] [AuthService] - Cache miss for key: user:profile:289.
+2025-12-01 05:45:59 [WARNING] [PaymentGateway] - Configuration key 'user:profile:290' not found, using default.
+2025-12-01 05:59:26 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-01 06:12:52 [INFO] [APIServer] - User 660 logged in successfully.
+2025-12-01 06:26:18 [INFO] [PaymentGateway] - Starting background job: CacheClear.
+2025-12-01 06:39:45 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:604.
+2025-12-01 06:53:11 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:282.
+2025-12-01 07:06:38 [WARNING] [FrontendRouter] - Configuration key 'user:profile:711' not found, using default.
+2025-12-01 07:20:04 [DEBUG] [DataProcessor] - Checking permissions for user: 681
+2025-12-01 07:33:30 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 07:46:57 [INFO] [APIServer] - User 424 logged in successfully.
+2025-12-01 08:00:23 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-01 08:13:50 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-01 08:27:16 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 08:40:42 [ERROR] [FrontendRouter] - Payment failed for user 539, reason: Insufficient funds.
+2025-12-01 08:54:09 [INFO] [DBConnection] - Request processed in 422ms.
+2025-12-01 09:07:35 [INFO] [DBConnection] - Request processed in 144ms.
+2025-12-01 09:21:02 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/48.
+2025-12-01 09:34:28 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-01 09:47:54 [WARNING] [APIServer] - API response time degradation detected: 356ms.
+2025-12-01 10:01:21 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:423.
+2025-12-01 10:14:47 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/61.
+2025-12-01 10:28:14 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-01 10:41:40 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-01 10:55:06 [ERROR] [AuthService] - Payment failed for user 132, reason: Insufficient funds.
+2025-12-01 11:08:33 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-01 11:21:59 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/87.
+2025-12-01 11:35:26 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-01 11:48:52 [DEBUG] [DBConnection] - Checking permissions for user: 481
+2025-12-01 12:02:18 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-01 12:15:45 [ERROR] [PaymentGateway] - Payment failed for user 137, reason: Insufficient funds.
+2025-12-01 12:29:11 [INFO] [AuthService] - User 548 logged in successfully.
+2025-12-01 12:42:38 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/27.
+2025-12-01 12:56:04 [DEBUG] [DBConnection] - Cache miss for key: user:profile:979.
+2025-12-01 13:09:30 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-01 13:22:57 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-01 13:36:23 [INFO] [DataProcessor] - Request processed in 383ms.
+2025-12-01 13:49:50 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/83.
+2025-12-01 14:03:16 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 14:16:42 [DEBUG] [PaymentGateway] - Checking permissions for user: 257
+2025-12-01 14:30:09 [DEBUG] [APIServer] - Checking permissions for user: 547
+2025-12-01 14:43:35 [DEBUG] [AuthService] - Cache miss for key: user:profile:294.
+2025-12-01 14:57:02 [WARNING] [APIServer] - API response time degradation detected: 149ms.
+2025-12-01 15:10:28 [DEBUG] [APIServer] - Cache miss for key: user:profile:384.
+2025-12-01 15:23:54 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-01 15:37:21 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-01 15:50:47 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-01 16:04:14 [INFO] [APIServer] - Request processed in 177ms.
+2025-12-01 16:17:40 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: NullPointerException.
+2025-12-01 16:31:06 [WARNING] [DBConnection] - Configuration key 'user:profile:997' not found, using default.
+2025-12-01 16:44:33 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 16:57:59 [INFO] [DataProcessor] - User 327 logged in successfully.
+2025-12-01 17:11:26 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-01 17:24:52 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-01 17:38:18 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-01 17:51:45 [WARNING] [DataProcessor] - Configuration key 'user:profile:732' not found, using default.
+2025-12-01 18:05:11 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-01 18:18:38 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/9.
+2025-12-01 18:32:04 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/84.
+2025-12-01 18:45:30 [INFO] [DBConnection] - Request processed in 198ms.
+2025-12-01 18:58:57 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/77.
+2025-12-01 19:12:23 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-01 19:25:50 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-01 19:39:16 [DEBUG] [APIServer] - Cache miss for key: user:profile:763.
+2025-12-01 19:52:42 [DEBUG] [DataProcessor] - Checking permissions for user: 933
+2025-12-01 20:06:09 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-01 20:19:35 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-01 20:33:02 [WARNING] [FrontendRouter] - Configuration key 'user:profile:594' not found, using default.
+2025-12-01 20:46:28 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/18.
+2025-12-01 20:59:54 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-01 21:13:21 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-01 21:26:47 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-01 21:40:14 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-01 21:53:40 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 22:07:06 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:304.
+2025-12-01 22:20:33 [INFO] [AuthService] - User 419 logged in successfully.
+2025-12-01 22:33:59 [DEBUG] [DBConnection] - Checking permissions for user: 740
+2025-12-01 22:47:26 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-01 23:00:52 [DEBUG] [PaymentGateway] - Variable value: is_admin = false
+2025-12-01 23:14:18 [WARNING] [DBConnection] - API response time degradation detected: 209ms.
+2025-12-01 23:27:45 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:693.
+2025-12-01 23:41:11 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-01 23:54:38 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-02 00:08:04 [DEBUG] [FrontendRouter] - Checking permissions for user: 194
+2025-12-02 00:21:30 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-02 00:34:57 [INFO] [FrontendRouter] - User 910 logged in successfully.
+2025-12-02 00:48:23 [INFO] [APIServer] - Starting background job: CacheClear.
+2025-12-02 01:01:50 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: IllegalArgumentException.
+2025-12-02 01:15:16 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-02 01:28:42 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-02 01:42:09 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-02 01:55:35 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-02 02:09:02 [DEBUG] [APIServer] - Checking permissions for user: 811
+2025-12-02 02:22:28 [INFO] [AuthService] - Request processed in 481ms.
+2025-12-02 02:35:54 [INFO] [APIServer] - Request processed in 454ms.
+2025-12-02 02:49:21 [INFO] [FrontendRouter] - Request processed in 67ms.
+2025-12-02 03:02:47 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-02 03:16:14 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-02 03:29:40 [DEBUG] [DataProcessor] - Checking permissions for user: 439
+2025-12-02 03:43:06 [ERROR] [DataProcessor] - Payment failed for user 279, reason: Insufficient funds.
+2025-12-02 03:56:33 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-02 04:09:59 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/70.
+2025-12-02 04:23:26 [ERROR] [DBConnection] - Payment failed for user 637, reason: Insufficient funds.
+2025-12-02 04:36:52 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-02 04:50:18 [DEBUG] [AuthService] - Checking permissions for user: 349
+2025-12-02 05:03:45 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-02 05:17:11 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-02 05:30:38 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-02 05:44:04 [INFO] [AuthService] - User 323 logged in successfully.
+2025-12-02 05:57:30 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:708.
+2025-12-02 06:10:57 [DEBUG] [AuthService] - Checking permissions for user: 500
+2025-12-02 06:24:23 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-02 06:37:50 [INFO] [DataProcessor] - Request processed in 465ms.
+2025-12-02 06:51:16 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-02 07:04:42 [DEBUG] [AuthService] - Checking permissions for user: 103
+2025-12-02 07:18:09 [DEBUG] [APIServer] - Checking permissions for user: 546
+2025-12-02 07:31:35 [WARNING] [AuthService] - API response time degradation detected: 73ms.
+2025-12-02 07:45:02 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/41.
+2025-12-02 07:58:28 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-02 08:11:54 [ERROR] [FrontendRouter] - Payment failed for user 845, reason: Insufficient funds.
+2025-12-02 08:25:21 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-02 08:38:47 [INFO] [DataProcessor] - Request processed in 142ms.
+2025-12-02 08:52:14 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-02 09:05:40 [DEBUG] [AuthService] - Cache miss for key: user:profile:835.
+2025-12-02 09:19:06 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/21.
+2025-12-02 09:32:33 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-02 09:45:59 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-02 09:59:26 [INFO] [DataProcessor] - Request processed in 138ms.
+2025-12-02 10:12:52 [DEBUG] [FrontendRouter] - Checking permissions for user: 806
+2025-12-02 10:26:18 [WARNING] [APIServer] - Configuration key 'user:profile:483' not found, using default.
+2025-12-02 10:39:45 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-02 10:53:11 [INFO] [PaymentGateway] - Request processed in 51ms.
+2025-12-02 11:06:38 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-02 11:20:04 [INFO] [AuthService] - User 225 logged in successfully.
+2025-12-02 11:33:30 [INFO] [AuthService] - User 740 logged in successfully.
+2025-12-02 11:46:57 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-02 12:00:23 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-02 12:13:50 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/67.
+2025-12-02 12:27:16 [INFO] [DataProcessor] - Request processed in 186ms.
+2025-12-02 12:40:42 [INFO] [PaymentGateway] - User 311 logged in successfully.
+2025-12-02 12:54:09 [WARNING] [DataProcessor] - API response time degradation detected: 241ms.
+2025-12-02 13:07:35 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-02 13:21:02 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-02 13:34:28 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/1.
+2025-12-02 13:47:54 [INFO] [FrontendRouter] - Request processed in 302ms.
+2025-12-02 14:01:21 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/83.
+2025-12-02 14:14:47 [INFO] [PaymentGateway] - User 663 logged in successfully.
+2025-12-02 14:28:14 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-02 14:41:40 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-02 14:55:06 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-02 15:08:33 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-02 15:21:59 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-02 15:35:26 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-02 15:48:52 [INFO] [FrontendRouter] - Request processed in 344ms.
+2025-12-02 16:02:18 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/38.
+2025-12-02 16:15:45 [INFO] [DBConnection] - User 904 logged in successfully.
+2025-12-02 16:29:11 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-02 16:42:38 [DEBUG] [AuthService] - Checking permissions for user: 500
+2025-12-02 16:56:04 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-02 17:09:30 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/33.
+2025-12-02 17:22:57 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: NullPointerException.
+2025-12-02 17:36:23 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-02 17:49:50 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-02 18:03:16 [INFO] [FrontendRouter] - User 313 logged in successfully.
+2025-12-02 18:16:42 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-02 18:30:09 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-02 18:43:35 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-02 18:57:02 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-02 19:10:28 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-02 19:23:54 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-02 19:37:21 [ERROR] [FrontendRouter] - Payment failed for user 121, reason: Insufficient funds.
+2025-12-02 19:50:47 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-02 20:04:14 [DEBUG] [DataProcessor] - Checking permissions for user: 993
+2025-12-02 20:17:40 [INFO] [DataProcessor] - Request processed in 302ms.
+2025-12-02 20:31:06 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-02 20:44:33 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:368.
+2025-12-02 20:57:59 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-02 21:11:26 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-02 21:24:52 [DEBUG] [DBConnection] - Checking permissions for user: 281
+2025-12-02 21:38:18 [INFO] [DBConnection] - Request processed in 408ms.
+2025-12-02 21:51:45 [DEBUG] [PaymentGateway] - Checking permissions for user: 892
+2025-12-02 22:05:11 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-02 22:18:38 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-02 22:32:04 [DEBUG] [APIServer] - Checking permissions for user: 932
+2025-12-02 22:45:30 [ERROR] [AuthService] - Unhandled exception in AuthService: IllegalArgumentException.
+2025-12-02 22:58:57 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-02 23:12:23 [DEBUG] [AuthService] - Checking permissions for user: 885
+2025-12-02 23:25:50 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-02 23:39:16 [INFO] [DataProcessor] - User 734 logged in successfully.
+2025-12-02 23:52:42 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-03 00:06:09 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-03 00:19:35 [WARNING] [PaymentGateway] - API response time degradation detected: 15ms.
+2025-12-03 00:33:02 [DEBUG] [DataProcessor] - Checking permissions for user: 143
+2025-12-03 00:46:28 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/41.
+2025-12-03 00:59:54 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-03 01:13:21 [INFO] [DBConnection] - User 685 logged in successfully.
+2025-12-03 01:26:47 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/50.
+2025-12-03 01:40:14 [WARNING] [AuthService] - Configuration key 'user:profile:140' not found, using default.
+2025-12-03 01:53:40 [ERROR] [DBConnection] - Unhandled exception in DBConnection: IllegalArgumentException.
+2025-12-03 02:07:06 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-03 02:20:33 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-03 02:33:59 [WARNING] [FrontendRouter] - API response time degradation detected: 148ms.
+2025-12-03 02:47:26 [WARNING] [DBConnection] - Deprecated function getUserProfile_v1() called.
+2025-12-03 03:00:52 [WARNING] [DataProcessor] - Configuration key 'user:profile:421' not found, using default.
+2025-12-03 03:14:18 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-03 03:27:45 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-03 03:41:11 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:970.
+2025-12-03 03:54:38 [WARNING] [DataProcessor] - Configuration key 'user:profile:223' not found, using default.
+2025-12-03 04:08:04 [ERROR] [DataProcessor] - Payment failed for user 353, reason: Insufficient funds.
+2025-12-03 04:21:30 [INFO] [FrontendRouter] - Request processed in 72ms.
+2025-12-03 04:34:57 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:196.
+2025-12-03 04:48:23 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-03 05:01:50 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-03 05:15:16 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:735.
+2025-12-03 05:28:42 [DEBUG] [DBConnection] - Checking permissions for user: 742
+2025-12-03 05:42:09 [DEBUG] [FrontendRouter] - Checking permissions for user: 493
+2025-12-03 05:55:35 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-03 06:09:02 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-03 06:22:28 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-03 06:35:54 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-03 06:49:21 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-03 07:02:47 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-03 07:16:14 [DEBUG] [DBConnection] - Checking permissions for user: 616
+2025-12-03 07:29:40 [ERROR] [FrontendRouter] - Payment failed for user 307, reason: Insufficient funds.
+2025-12-03 07:43:06 [INFO] [DataProcessor] - User 685 logged in successfully.
+2025-12-03 07:56:33 [INFO] [DataProcessor] - Request processed in 300ms.
+2025-12-03 08:09:59 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-03 08:23:26 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-03 08:36:52 [DEBUG] [DBConnection] - Checking permissions for user: 271
+2025-12-03 08:50:18 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-03 09:03:45 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-03 09:17:11 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-03 09:30:38 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/60.
+2025-12-03 09:44:04 [INFO] [APIServer] - Request processed in 320ms.
+2025-12-03 09:57:30 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:637.
+2025-12-03 10:10:57 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-03 10:24:23 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-03 10:37:50 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-03 10:51:16 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-03 11:04:42 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-03 11:18:09 [DEBUG] [AuthService] - Cache miss for key: user:profile:306.
+2025-12-03 11:31:35 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-03 11:45:02 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-03 11:58:28 [INFO] [DataProcessor] - Request processed in 202ms.
+2025-12-03 12:11:54 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-03 12:25:21 [INFO] [PaymentGateway] - User 860 logged in successfully.
+2025-12-03 12:38:47 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/9.
+2025-12-03 12:52:14 [INFO] [DBConnection] - User 532 logged in successfully.
+2025-12-03 13:05:40 [ERROR] [DBConnection] - Payment failed for user 762, reason: Insufficient funds.
+2025-12-03 13:19:06 [WARNING] [AuthService] - API response time degradation detected: 107ms.
+2025-12-03 13:32:33 [INFO] [FrontendRouter] - User 277 logged in successfully.
+2025-12-03 13:45:59 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-03 13:59:26 [DEBUG] [DBConnection] - Checking permissions for user: 509
+2025-12-03 14:12:52 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-03 14:26:18 [DEBUG] [APIServer] - Cache miss for key: user:profile:649.
+2025-12-03 14:39:45 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-03 14:53:11 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-03 15:06:38 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-03 15:20:04 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-03 15:33:30 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-03 15:46:57 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-03 16:00:23 [INFO] [AuthService] - User 412 logged in successfully.
+2025-12-03 16:13:50 [INFO] [FrontendRouter] - User 170 logged in successfully.
+2025-12-03 16:27:16 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-03 16:40:42 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/27.
+2025-12-03 16:54:09 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-03 17:07:35 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-03 17:21:02 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/91.
+2025-12-03 17:34:28 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-03 17:47:54 [DEBUG] [DBConnection] - Checking permissions for user: 651
+2025-12-03 18:01:21 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-03 18:14:47 [DEBUG] [FrontendRouter] - Checking permissions for user: 370
+2025-12-03 18:28:14 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-03 18:41:40 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-03 18:55:06 [DEBUG] [FrontendRouter] - Checking permissions for user: 792
+2025-12-03 19:08:33 [INFO] [APIServer] - User 532 logged in successfully.
+2025-12-03 19:21:59 [DEBUG] [APIServer] - Checking permissions for user: 662
+2025-12-03 19:35:26 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-03 19:48:52 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-03 20:02:18 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-03 20:15:45 [INFO] [APIServer] - User 804 logged in successfully.
+2025-12-03 20:29:11 [INFO] [APIServer] - Request processed in 310ms.
+2025-12-03 20:42:38 [WARNING] [PaymentGateway] - Configuration key 'user:profile:596' not found, using default.
+2025-12-03 20:56:04 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-03 21:09:30 [INFO] [DBConnection] - User 772 logged in successfully.
+2025-12-03 21:22:57 [WARNING] [DBConnection] - API response time degradation detected: 395ms.
+2025-12-03 21:36:23 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/63.
+2025-12-03 21:49:50 [DEBUG] [DataProcessor] - Checking permissions for user: 862
+2025-12-03 22:03:16 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-03 22:16:42 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-03 22:30:09 [DEBUG] [AuthService] - Cache miss for key: user:profile:289.
+2025-12-03 22:43:35 [WARNING] [AuthService] - API response time degradation detected: 380ms.
+2025-12-03 22:57:02 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/90.
+2025-12-03 23:10:28 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:751.
+2025-12-03 23:23:54 [WARNING] [AuthService] - Database connection pool nearing capacity.
+2025-12-03 23:37:21 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-03 23:50:47 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/37.
+2025-12-04 00:04:14 [WARNING] [AuthService] - API response time degradation detected: 207ms.
+2025-12-04 00:17:40 [ERROR] [AuthService] - Payment failed for user 611, reason: Insufficient funds.
+2025-12-04 00:31:06 [INFO] [FrontendRouter] - Request processed in 319ms.
+2025-12-04 00:44:33 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-04 00:57:59 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-04 01:11:26 [INFO] [AuthService] - Request processed in 245ms.
+2025-12-04 01:24:52 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-04 01:38:18 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-04 01:51:45 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-04 02:05:11 [WARNING] [DBConnection] - API response time degradation detected: 394ms.
+2025-12-04 02:18:38 [DEBUG] [AuthService] - Cache miss for key: user:profile:182.
+2025-12-04 02:32:04 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/13.
+2025-12-04 02:45:30 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-04 02:58:57 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-04 03:12:23 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-04 03:25:50 [WARNING] [DataProcessor] - Configuration key 'user:profile:539' not found, using default.
+2025-12-04 03:39:16 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-04 03:52:42 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:859.
+2025-12-04 04:06:09 [ERROR] [AuthService] - Payment failed for user 409, reason: Insufficient funds.
+2025-12-04 04:19:35 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-04 04:33:02 [INFO] [FrontendRouter] - User 263 logged in successfully.
+2025-12-04 04:46:28 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:420.
+2025-12-04 04:59:54 [INFO] [AuthService] - User 926 logged in successfully.
+2025-12-04 05:13:21 [WARNING] [DBConnection] - API response time degradation detected: 301ms.
+2025-12-04 05:26:47 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:420.
+2025-12-04 05:40:14 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-04 05:53:40 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-04 06:07:06 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:626.
+2025-12-04 06:20:33 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-04 06:33:59 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/79.
+2025-12-04 06:47:26 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-04 07:00:52 [WARNING] [APIServer] - Configuration key 'user:profile:898' not found, using default.
+2025-12-04 07:14:18 [INFO] [AuthService] - Request processed in 99ms.
+2025-12-04 07:27:45 [INFO] [AuthService] - User 384 logged in successfully.
+2025-12-04 07:41:11 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-04 07:54:38 [WARNING] [DBConnection] - API response time degradation detected: 271ms.
+2025-12-04 08:08:04 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-04 08:21:30 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/61.
+2025-12-04 08:34:57 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: IllegalArgumentException.
+2025-12-04 08:48:23 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-04 09:01:50 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-04 09:15:16 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/42.
+2025-12-04 09:28:42 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-04 09:42:09 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/97.
+2025-12-04 09:55:35 [INFO] [APIServer] - Request processed in 130ms.
+2025-12-04 10:09:02 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-04 10:22:28 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-04 10:35:54 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-04 10:49:21 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-04 11:02:47 [ERROR] [APIServer] - Payment failed for user 884, reason: Insufficient funds.
+2025-12-04 11:16:14 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-04 11:29:40 [DEBUG] [DataProcessor] - Checking permissions for user: 463
+2025-12-04 11:43:06 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-04 11:56:33 [INFO] [FrontendRouter] - Request processed in 25ms.
+2025-12-04 12:09:59 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-04 12:23:26 [WARNING] [PaymentGateway] - API response time degradation detected: 465ms.
+2025-12-04 12:36:52 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-04 12:50:18 [INFO] [DBConnection] - Request processed in 233ms.
+2025-12-04 13:03:45 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:997.
+2025-12-04 13:17:11 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-04 13:30:38 [INFO] [PaymentGateway] - User 843 logged in successfully.
+2025-12-04 13:44:04 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-04 13:57:30 [INFO] [PaymentGateway] - Request processed in 484ms.
+2025-12-04 14:10:57 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-04 14:24:23 [DEBUG] [DBConnection] - Cache miss for key: user:profile:657.
+2025-12-04 14:37:50 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-04 14:51:16 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-04 15:04:42 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-04 15:18:09 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-04 15:31:35 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-04 15:45:02 [DEBUG] [AuthService] - Checking permissions for user: 872
+2025-12-04 15:58:28 [INFO] [FrontendRouter] - User 877 logged in successfully.
+2025-12-04 16:11:54 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-04 16:25:21 [ERROR] [DBConnection] - Payment failed for user 953, reason: Insufficient funds.
+2025-12-04 16:38:47 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-04 16:52:14 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-04 17:05:40 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-04 17:19:06 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-04 17:32:33 [DEBUG] [PaymentGateway] - Checking permissions for user: 569
+2025-12-04 17:45:59 [DEBUG] [PaymentGateway] - Checking permissions for user: 190
+2025-12-04 17:59:26 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-04 18:12:52 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-04 18:26:18 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-04 18:39:45 [INFO] [DBConnection] - User 129 logged in successfully.
+2025-12-04 18:53:11 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-04 19:06:38 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/18.
+2025-12-04 19:20:04 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-04 19:33:30 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-04 19:46:57 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-04 20:00:23 [DEBUG] [AuthService] - Cache miss for key: user:profile:732.
+2025-12-04 20:13:50 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-04 20:27:16 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-04 20:40:42 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-04 20:54:09 [DEBUG] [APIServer] - Checking permissions for user: 415
+2025-12-04 21:07:35 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-04 21:21:02 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-04 21:34:28 [WARNING] [PaymentGateway] - Configuration key 'user:profile:225' not found, using default.
+2025-12-04 21:47:54 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: NullPointerException.
+2025-12-04 22:01:21 [WARNING] [DataProcessor] - Configuration key 'user:profile:213' not found, using default.
+2025-12-04 22:14:47 [INFO] [AuthService] - Request processed in 92ms.
+2025-12-04 22:28:14 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:388.
+2025-12-04 22:41:40 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-04 22:55:06 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/10.
+2025-12-04 23:08:33 [INFO] [DBConnection] - Request processed in 118ms.
+2025-12-04 23:21:59 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-04 23:35:26 [INFO] [DataProcessor] - User 866 logged in successfully.
+2025-12-04 23:48:52 [WARNING] [AuthService] - API response time degradation detected: 119ms.
+2025-12-05 00:02:18 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-05 00:15:45 [INFO] [AuthService] - Request processed in 39ms.
+2025-12-05 00:29:11 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:555.
+2025-12-05 00:42:38 [WARNING] [DBConnection] - API response time degradation detected: 238ms.
+2025-12-05 00:56:04 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-05 01:09:30 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-05 01:22:57 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/98.
+2025-12-05 01:36:23 [INFO] [APIServer] - Request processed in 489ms.
+2025-12-05 01:49:50 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-05 02:03:16 [DEBUG] [DBConnection] - Cache miss for key: user:profile:148.
+2025-12-05 02:16:42 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:176.
+2025-12-05 02:30:09 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-05 02:43:35 [INFO] [AuthService] - User 652 logged in successfully.
+2025-12-05 02:57:02 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-05 03:10:28 [WARNING] [DBConnection] - Deprecated function getUserProfile_v1() called.
+2025-12-05 03:23:54 [ERROR] [DBConnection] - Unhandled exception in DBConnection: IllegalArgumentException.
+2025-12-05 03:37:21 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-05 03:50:47 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-05 04:04:14 [INFO] [AuthService] - User 328 logged in successfully.
+2025-12-05 04:17:40 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-05 04:31:06 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:457.
+2025-12-05 04:44:33 [WARNING] [DBConnection] - API response time degradation detected: 294ms.
+2025-12-05 04:57:59 [DEBUG] [APIServer] - Checking permissions for user: 794
+2025-12-05 05:11:26 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/40.
+2025-12-05 05:24:52 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-05 05:38:18 [INFO] [DataProcessor] - User 381 logged in successfully.
+2025-12-05 05:51:45 [INFO] [FrontendRouter] - Request processed in 500ms.
+2025-12-05 06:05:11 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-05 06:18:38 [INFO] [PaymentGateway] - User 734 logged in successfully.
+2025-12-05 06:32:04 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-05 06:45:30 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-05 06:58:57 [INFO] [AuthService] - Request processed in 39ms.
+2025-12-05 07:12:23 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-05 07:25:50 [DEBUG] [APIServer] - Cache miss for key: user:profile:750.
+2025-12-05 07:39:16 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-05 07:52:42 [INFO] [DataProcessor] - Request processed in 474ms.
+2025-12-05 08:06:09 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-05 08:19:35 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-05 08:33:02 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-05 08:46:28 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-05 08:59:54 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-05 09:13:21 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-05 09:26:47 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-05 09:40:14 [WARNING] [DataProcessor] - API response time degradation detected: 272ms.
+2025-12-05 09:53:40 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/17.
+2025-12-05 10:07:06 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-05 10:20:33 [INFO] [PaymentGateway] - User 846 logged in successfully.
+2025-12-05 10:33:59 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-05 10:47:26 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-05 11:00:52 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-05 11:14:18 [INFO] [DataProcessor] - Starting background job: CacheClear.
+2025-12-05 11:27:45 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-05 11:41:11 [INFO] [DataProcessor] - User 336 logged in successfully.
+2025-12-05 11:54:38 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-05 12:08:04 [WARNING] [PaymentGateway] - API response time degradation detected: 375ms.
+2025-12-05 12:21:30 [DEBUG] [AuthService] - Cache miss for key: user:profile:949.
+2025-12-05 12:34:57 [INFO] [APIServer] - User 956 logged in successfully.
+2025-12-05 12:48:23 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-05 13:01:50 [INFO] [DataProcessor] - User 860 logged in successfully.
+2025-12-05 13:15:16 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-05 13:28:42 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-05 13:42:09 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-05 13:55:35 [INFO] [DBConnection] - User 358 logged in successfully.
+2025-12-05 14:09:02 [DEBUG] [AuthService] - Checking permissions for user: 746
+2025-12-05 14:22:28 [INFO] [PaymentGateway] - Request processed in 248ms.
+2025-12-05 14:35:54 [INFO] [APIServer] - Request processed in 232ms.
+2025-12-05 14:49:21 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-05 15:02:47 [INFO] [APIServer] - Request processed in 198ms.
+2025-12-05 15:16:14 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-05 15:29:40 [DEBUG] [DataProcessor] - Checking permissions for user: 283
+2025-12-05 15:43:06 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/67.
+2025-12-05 15:56:33 [DEBUG] [FrontendRouter] - Checking permissions for user: 743
+2025-12-05 16:09:59 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-05 16:23:26 [INFO] [APIServer] - Request processed in 353ms.
+2025-12-05 16:36:52 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-05 16:50:18 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-05 17:03:45 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-05 17:17:11 [DEBUG] [FrontendRouter] - Checking permissions for user: 163
+2025-12-05 17:30:38 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:466.
+2025-12-05 17:44:04 [DEBUG] [PaymentGateway] - Variable value: is_admin = false
+2025-12-05 17:57:30 [INFO] [AuthService] - Request processed in 231ms.
+2025-12-05 18:10:57 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-05 18:24:23 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-05 18:37:50 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:582.
+2025-12-05 18:51:16 [ERROR] [FrontendRouter] - Payment failed for user 801, reason: Insufficient funds.
+2025-12-05 19:04:42 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-05 19:18:09 [DEBUG] [APIServer] - Checking permissions for user: 873
+2025-12-05 19:31:35 [ERROR] [PaymentGateway] - Payment failed for user 557, reason: Insufficient funds.
+2025-12-05 19:45:02 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-05 19:58:28 [INFO] [DataProcessor] - Request processed in 329ms.
+2025-12-05 20:11:54 [DEBUG] [DBConnection] - Cache miss for key: user:profile:854.
+2025-12-05 20:25:21 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-05 20:38:47 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-05 20:52:14 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-05 21:05:40 [WARNING] [DBConnection] - Deprecated function getUserProfile_v1() called.
+2025-12-05 21:19:06 [DEBUG] [AuthService] - Checking permissions for user: 826
+2025-12-05 21:32:33 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:943.
+2025-12-05 21:45:59 [DEBUG] [DataProcessor] - Checking permissions for user: 977
+2025-12-05 21:59:26 [WARNING] [AuthService] - Database connection pool nearing capacity.
+2025-12-05 22:12:52 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:694.
+2025-12-05 22:26:18 [INFO] [AuthService] - User 541 logged in successfully.
+2025-12-05 22:39:45 [DEBUG] [DBConnection] - Cache miss for key: user:profile:157.
+2025-12-05 22:53:11 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-05 23:06:38 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-05 23:20:04 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-05 23:33:30 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/69.
+2025-12-05 23:46:57 [DEBUG] [AuthService] - Cache miss for key: user:profile:107.
+2025-12-06 00:00:23 [WARNING] [PaymentGateway] - Database connection pool nearing capacity.
+2025-12-06 00:13:50 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-06 00:27:16 [INFO] [DBConnection] - Request processed in 236ms.
+2025-12-06 00:40:42 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-06 00:54:09 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:691.
+2025-12-06 01:07:35 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-06 01:21:02 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-06 01:34:28 [INFO] [AuthService] - Request processed in 176ms.
+2025-12-06 01:47:54 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-06 02:01:21 [DEBUG] [APIServer] - Checking permissions for user: 151
+2025-12-06 02:14:47 [INFO] [PaymentGateway] - Request processed in 434ms.
+2025-12-06 02:28:14 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-06 02:41:40 [INFO] [DataProcessor] - User 975 logged in successfully.
+2025-12-06 02:55:06 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-06 03:08:33 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-06 03:21:59 [INFO] [DataProcessor] - Starting background job: CacheClear.
+2025-12-06 03:35:26 [DEBUG] [APIServer] - Cache miss for key: user:profile:367.
+2025-12-06 03:48:52 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-06 04:02:18 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-06 04:15:45 [INFO] [DBConnection] - User 214 logged in successfully.
+2025-12-06 04:29:11 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/95.
+2025-12-06 04:42:38 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-06 04:56:04 [INFO] [APIServer] - User 895 logged in successfully.
+2025-12-06 05:09:30 [INFO] [APIServer] - Starting background job: CacheClear.
+2025-12-06 05:22:57 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:829.
+2025-12-06 05:36:23 [WARNING] [AuthService] - Database connection pool nearing capacity.
+2025-12-06 05:49:50 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-06 06:03:16 [WARNING] [PaymentGateway] - Database connection pool nearing capacity.
+2025-12-06 06:16:42 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/82.
+2025-12-06 06:30:09 [INFO] [DataProcessor] - User 214 logged in successfully.
+2025-12-06 06:43:35 [DEBUG] [DBConnection] - Cache miss for key: user:profile:817.
+2025-12-06 06:57:02 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/72.
+2025-12-06 07:10:28 [ERROR] [AuthService] - Unhandled exception in AuthService: NullPointerException.
+2025-12-06 07:23:54 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-06 07:37:21 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-06 07:50:47 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-06 08:04:14 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-06 08:17:40 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-06 08:31:06 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/7.
+2025-12-06 08:44:33 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:242.
+2025-12-06 08:57:59 [INFO] [APIServer] - User 940 logged in successfully.
+2025-12-06 09:11:26 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-06 09:24:52 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/74.
+2025-12-06 09:38:18 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-06 09:51:45 [DEBUG] [FrontendRouter] - Checking permissions for user: 874
+2025-12-06 10:05:11 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-06 10:18:38 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:359.
+2025-12-06 10:32:04 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-06 10:45:30 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-06 10:58:57 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-06 11:12:23 [INFO] [PaymentGateway] - User 928 logged in successfully.
+2025-12-06 11:25:50 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-06 11:39:16 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/49.
+2025-12-06 11:52:42 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-06 12:06:09 [INFO] [DataProcessor] - Request processed in 53ms.
+2025-12-06 12:19:35 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/82.
+2025-12-06 12:33:02 [DEBUG] [DataProcessor] - Checking permissions for user: 635
+2025-12-06 12:46:28 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/58.
+2025-12-06 12:59:54 [DEBUG] [DBConnection] - Checking permissions for user: 309
+2025-12-06 13:13:21 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-06 13:26:47 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-06 13:40:14 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-06 13:53:40 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-06 14:07:06 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-06 14:20:33 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-06 14:33:59 [INFO] [DBConnection] - Request processed in 28ms.
+2025-12-06 14:47:26 [DEBUG] [PaymentGateway] - Checking permissions for user: 390
+2025-12-06 15:00:52 [WARNING] [PaymentGateway] - API response time degradation detected: 137ms.
+2025-12-06 15:14:18 [WARNING] [DBConnection] - Configuration key 'user:profile:600' not found, using default.
+2025-12-06 15:27:45 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-06 15:41:11 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/7.
+2025-12-06 15:54:38 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-06 16:08:04 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: NullPointerException.
+2025-12-06 16:21:30 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-06 16:34:57 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-06 16:48:23 [DEBUG] [DataProcessor] - Checking permissions for user: 740
+2025-12-06 17:01:50 [DEBUG] [APIServer] - Checking permissions for user: 450
+2025-12-06 17:15:16 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-06 17:28:42 [WARNING] [DataProcessor] - API response time degradation detected: 246ms.
+2025-12-06 17:42:09 [INFO] [DataProcessor] - User 226 logged in successfully.
+2025-12-06 17:55:35 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-06 18:09:02 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-06 18:22:28 [ERROR] [APIServer] - Payment failed for user 805, reason: Insufficient funds.
+2025-12-06 18:35:54 [WARNING] [DataProcessor] - API response time degradation detected: 236ms.
+2025-12-06 18:49:21 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-06 19:02:47 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-12-06 19:16:14 [WARNING] [PaymentGateway] - API response time degradation detected: 156ms.
+2025-12-06 19:29:40 [INFO] [DBConnection] - User 611 logged in successfully.
+2025-12-06 19:43:06 [DEBUG] [DataProcessor] - Checking permissions for user: 245
+2025-12-06 19:56:33 [INFO] [FrontendRouter] - User 714 logged in successfully.
+2025-12-06 20:09:59 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-06 20:23:26 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-06 20:36:52 [INFO] [AuthService] - User 306 logged in successfully.
+2025-12-06 20:50:18 [ERROR] [DBConnection] - Payment failed for user 230, reason: Insufficient funds.
+2025-12-06 21:03:45 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-06 21:17:11 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/95.
+2025-12-06 21:30:38 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-06 21:44:04 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-06 21:57:30 [INFO] [PaymentGateway] - Request processed in 241ms.
+2025-12-06 22:10:57 [INFO] [APIServer] - User 516 logged in successfully.
+2025-12-06 22:24:23 [WARNING] [DBConnection] - API response time degradation detected: 218ms.
+2025-12-06 22:37:50 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-06 22:51:16 [WARNING] [DataProcessor] - API response time degradation detected: 87ms.
+2025-12-06 23:04:42 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-06 23:18:09 [DEBUG] [PaymentGateway] - Checking permissions for user: 600
+2025-12-06 23:31:35 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-06 23:45:02 [DEBUG] [DBConnection] - Cache miss for key: user:profile:838.
+2025-12-06 23:58:28 [DEBUG] [AuthService] - Checking permissions for user: 393
+2025-12-07 00:11:54 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/96.
+2025-12-07 00:25:21 [INFO] [DBConnection] - User 207 logged in successfully.
+2025-12-07 00:38:47 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 00:52:14 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 01:05:40 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-07 01:19:06 [INFO] [APIServer] - Request processed in 107ms.
+2025-12-07 01:32:33 [WARNING] [DataProcessor] - Configuration key 'user:profile:760' not found, using default.
+2025-12-07 01:45:59 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:842.
+2025-12-07 01:59:26 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-07 02:12:52 [INFO] [PaymentGateway] - Request processed in 119ms.
+2025-12-07 02:26:18 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/76.
+2025-12-07 02:39:45 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-07 02:53:11 [INFO] [FrontendRouter] - Request processed in 319ms.
+2025-12-07 03:06:38 [DEBUG] [AuthService] - Checking permissions for user: 580
+2025-12-07 03:20:04 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-07 03:33:30 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 03:46:57 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-07 04:00:23 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-07 04:13:50 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-07 04:27:16 [INFO] [DataProcessor] - Request processed in 315ms.
+2025-12-07 04:40:42 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 04:54:09 [INFO] [DBConnection] - User 262 logged in successfully.
+2025-12-07 05:07:35 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-07 05:21:02 [INFO] [PaymentGateway] - Request processed in 23ms.
+2025-12-07 05:34:28 [WARNING] [APIServer] - Configuration key 'user:profile:661' not found, using default.
+2025-12-07 05:47:54 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-07 06:01:21 [INFO] [APIServer] - User 858 logged in successfully.
+2025-12-07 06:14:47 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-07 06:28:14 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-07 06:41:40 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-07 06:55:06 [INFO] [APIServer] - User 782 logged in successfully.
+2025-12-07 07:08:33 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/44.
+2025-12-07 07:21:59 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/12.
+2025-12-07 07:35:26 [WARNING] [DBConnection] - API response time degradation detected: 500ms.
+2025-12-07 07:48:52 [INFO] [FrontendRouter] - User 833 logged in successfully.
+2025-12-07 08:02:18 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 08:15:45 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-07 08:29:11 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-07 08:42:38 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-07 08:56:04 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-07 09:09:30 [INFO] [AuthService] - User 106 logged in successfully.
+2025-12-07 09:22:57 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-07 09:36:23 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-07 09:49:50 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 10:03:16 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-07 10:16:42 [INFO] [PaymentGateway] - Request processed in 304ms.
+2025-12-07 10:30:09 [INFO] [APIServer] - User 755 logged in successfully.
+2025-12-07 10:43:35 [INFO] [AuthService] - User 711 logged in successfully.
+2025-12-07 10:57:02 [DEBUG] [APIServer] - Checking permissions for user: 789
+2025-12-07 11:10:28 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-07 11:23:54 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-07 11:37:21 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-07 11:50:47 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-12-07 12:04:14 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-07 12:17:40 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-07 12:31:06 [INFO] [PaymentGateway] - User 193 logged in successfully.
+2025-12-07 12:44:33 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-07 12:57:59 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-07 13:11:26 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-07 13:24:52 [INFO] [APIServer] - User 536 logged in successfully.
+2025-12-07 13:38:18 [INFO] [AuthService] - User 179 logged in successfully.
+2025-12-07 13:51:45 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-07 14:05:11 [WARNING] [PaymentGateway] - API response time degradation detected: 443ms.
+2025-12-07 14:18:38 [DEBUG] [AuthService] - Cache miss for key: user:profile:628.
+2025-12-07 14:32:04 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-07 14:45:30 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 14:58:57 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 15:12:23 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-07 15:25:50 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/40.
+2025-12-07 15:39:16 [INFO] [DBConnection] - Request processed in 91ms.
+2025-12-07 15:52:42 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-07 16:06:09 [INFO] [PaymentGateway] - Request processed in 336ms.
+2025-12-07 16:19:35 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/12.
+2025-12-07 16:33:02 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-07 16:46:28 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-07 16:59:54 [DEBUG] [APIServer] - Checking permissions for user: 118
+2025-12-07 17:13:21 [INFO] [FrontendRouter] - User 104 logged in successfully.
+2025-12-07 17:26:47 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-07 17:40:14 [DEBUG] [APIServer] - Cache miss for key: user:profile:477.
+2025-12-07 17:53:40 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-07 18:07:06 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-07 18:20:33 [DEBUG] [AuthService] - Checking permissions for user: 496
+2025-12-07 18:33:59 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-07 18:47:26 [ERROR] [AuthService] - Unhandled exception in AuthService: NullPointerException.
+2025-12-07 19:00:52 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/41.
+2025-12-07 19:14:18 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-07 19:27:45 [WARNING] [PaymentGateway] - API response time degradation detected: 461ms.
+2025-12-07 19:41:11 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-07 19:54:38 [DEBUG] [APIServer] - Checking permissions for user: 919
+2025-12-07 20:08:04 [ERROR] [DataProcessor] - Payment failed for user 882, reason: Insufficient funds.
+2025-12-07 20:21:30 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-07 20:34:57 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-07 20:48:23 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-07 21:01:50 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-07 21:15:16 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-07 21:28:42 [INFO] [DataProcessor] - Request processed in 451ms.
+2025-12-07 21:42:09 [INFO] [DataProcessor] - Request processed in 183ms.
+2025-12-07 21:55:35 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-07 22:09:02 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-07 22:22:28 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-07 22:35:54 [DEBUG] [AuthService] - Cache miss for key: user:profile:623.
+2025-12-07 22:49:21 [WARNING] [PaymentGateway] - API response time degradation detected: 77ms.
+2025-12-07 23:02:47 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-07 23:16:14 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-07 23:29:40 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-07 23:43:06 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-12-07 23:56:33 [DEBUG] [AuthService] - Checking permissions for user: 657
+2025-12-08 00:09:59 [INFO] [DBConnection] - User 411 logged in successfully.
+2025-12-08 00:23:26 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-08 00:36:52 [WARNING] [FrontendRouter] - API response time degradation detected: 88ms.
+2025-12-08 00:50:18 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-08 01:03:45 [WARNING] [AuthService] - API response time degradation detected: 86ms.
+2025-12-08 01:17:11 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-08 01:30:38 [WARNING] [APIServer] - API response time degradation detected: 376ms.
+2025-12-08 01:44:04 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-08 01:57:30 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-08 02:10:57 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-08 02:24:23 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-08 02:37:50 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-08 02:51:16 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-08 03:04:42 [DEBUG] [APIServer] - Cache miss for key: user:profile:780.
+2025-12-08 03:18:09 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-08 03:31:35 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-08 03:45:02 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-08 03:58:28 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-08 04:11:54 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-08 04:25:21 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:831.
+2025-12-08 04:38:47 [INFO] [DataProcessor] - User 139 logged in successfully.
+2025-12-08 04:52:14 [INFO] [PaymentGateway] - User 187 logged in successfully.
+2025-12-08 05:05:40 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-08 05:19:06 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/25.
+2025-12-08 05:32:33 [INFO] [APIServer] - User 921 logged in successfully.
+2025-12-08 05:45:59 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-08 05:59:26 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-08 06:12:52 [WARNING] [DBConnection] - Configuration key 'user:profile:747' not found, using default.
+2025-12-08 06:26:18 [INFO] [DataProcessor] - Request processed in 16ms.
+2025-12-08 06:39:45 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-08 06:53:11 [ERROR] [DBConnection] - Unhandled exception in DBConnection: IllegalArgumentException.
+2025-12-08 07:06:38 [DEBUG] [FrontendRouter] - Checking permissions for user: 129
+2025-12-08 07:20:04 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-08 07:33:30 [DEBUG] [APIServer] - Cache miss for key: user:profile:594.
+2025-12-08 07:46:57 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-08 08:00:23 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-08 08:13:50 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-08 08:27:16 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/18.
+2025-12-08 08:40:42 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-08 08:54:09 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-08 09:07:35 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-08 09:21:02 [INFO] [PaymentGateway] - User 434 logged in successfully.
+2025-12-08 09:34:28 [WARNING] [FrontendRouter] - API response time degradation detected: 432ms.
+2025-12-08 09:47:54 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-08 10:01:21 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-08 10:14:47 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-08 10:28:14 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-08 10:41:40 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:351.
+2025-12-08 10:55:06 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-08 11:08:33 [INFO] [DataProcessor] - User 866 logged in successfully.
+2025-12-08 11:21:59 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-08 11:35:26 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/48.
+2025-12-08 11:48:52 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/100.
+2025-12-08 12:02:18 [INFO] [DBConnection] - User 817 logged in successfully.
+2025-12-08 12:15:45 [DEBUG] [APIServer] - Cache miss for key: user:profile:683.
+2025-12-08 12:29:11 [INFO] [PaymentGateway] - Starting background job: CacheClear.
+2025-12-08 12:42:38 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-08 12:56:04 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-08 13:09:30 [INFO] [PaymentGateway] - User 352 logged in successfully.
+2025-12-08 13:22:57 [INFO] [FrontendRouter] - User 429 logged in successfully.
+2025-12-08 13:36:23 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-08 13:49:50 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/23.
+2025-12-08 14:03:16 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-08 14:16:42 [INFO] [AuthService] - Request processed in 397ms.
+2025-12-08 14:30:09 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-08 14:43:35 [WARNING] [DataProcessor] - Configuration key 'user:profile:574' not found, using default.
+2025-12-08 14:57:02 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-08 15:10:28 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-12-08 15:23:54 [INFO] [DBConnection] - User 189 logged in successfully.
+2025-12-08 15:37:21 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-08 15:50:47 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/64.
+2025-12-08 16:04:14 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-08 16:17:40 [INFO] [PaymentGateway] - Request processed in 219ms.
+2025-12-08 16:31:06 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-08 16:44:33 [DEBUG] [DBConnection] - Checking permissions for user: 909
+2025-12-08 16:57:59 [DEBUG] [AuthService] - Checking permissions for user: 858
+2025-12-08 17:11:26 [INFO] [DBConnection] - Request processed in 80ms.
+2025-12-08 17:24:52 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/58.
+2025-12-08 17:38:18 [INFO] [PaymentGateway] - Request processed in 178ms.
+2025-12-08 17:51:45 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-08 18:05:11 [INFO] [AuthService] - Request processed in 232ms.
+2025-12-08 18:18:38 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-08 18:32:04 [WARNING] [PaymentGateway] - Configuration key 'user:profile:252' not found, using default.
+2025-12-08 18:45:30 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-08 18:58:57 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-08 19:12:23 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/31.
+2025-12-08 19:25:50 [ERROR] [AuthService] - Payment failed for user 251, reason: Insufficient funds.
+2025-12-08 19:39:16 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/5.
+2025-12-08 19:52:42 [WARNING] [FrontendRouter] - API response time degradation detected: 245ms.
+2025-12-08 20:06:09 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-08 20:19:35 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-08 20:33:02 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-08 20:46:28 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-08 20:59:54 [INFO] [DataProcessor] - Starting background job: CacheClear.
+2025-12-08 21:13:21 [INFO] [FrontendRouter] - Request processed in 59ms.
+2025-12-08 21:26:47 [INFO] [DataProcessor] - Request processed in 301ms.
+2025-12-08 21:40:14 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: NullPointerException.
+2025-12-08 21:53:40 [INFO] [AuthService] - Request processed in 416ms.
+2025-12-08 22:07:06 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-08 22:20:33 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-08 22:33:59 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-08 22:47:26 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-08 23:00:52 [WARNING] [FrontendRouter] - Configuration key 'user:profile:624' not found, using default.
+2025-12-08 23:14:18 [DEBUG] [DBConnection] - Cache miss for key: user:profile:965.
+2025-12-08 23:27:45 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-08 23:41:11 [WARNING] [AuthService] - Database connection pool nearing capacity.
+2025-12-08 23:54:38 [INFO] [APIServer] - Starting background job: CacheClear.
+2025-12-09 00:08:04 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-09 00:21:30 [INFO] [DBConnection] - User 926 logged in successfully.
+2025-12-09 00:34:57 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-09 00:48:23 [ERROR] [AuthService] - Unhandled exception in AuthService: NullPointerException.
+2025-12-09 01:01:50 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 01:15:16 [ERROR] [APIServer] - Unhandled exception in APIServer: NullPointerException.
+2025-12-09 01:28:42 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-09 01:42:09 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-09 01:55:35 [INFO] [DataProcessor] - Request processed in 230ms.
+2025-12-09 02:09:02 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-09 02:22:28 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-09 02:35:54 [INFO] [AuthService] - Request processed in 51ms.
+2025-12-09 02:49:21 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/31.
+2025-12-09 03:02:47 [INFO] [DataProcessor] - Request processed in 133ms.
+2025-12-09 03:16:14 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-09 03:29:40 [DEBUG] [PaymentGateway] - Checking permissions for user: 665
+2025-12-09 03:43:06 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-09 03:56:33 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:153.
+2025-12-09 04:09:59 [DEBUG] [AuthService] - Checking permissions for user: 828
+2025-12-09 04:23:26 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-09 04:36:52 [INFO] [DataProcessor] - Starting background job: CacheClear.
+2025-12-09 04:50:18 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 05:03:45 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-09 05:17:11 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-09 05:30:38 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-09 05:44:04 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:287.
+2025-12-09 05:57:30 [WARNING] [APIServer] - API response time degradation detected: 278ms.
+2025-12-09 06:10:57 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 06:24:23 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-09 06:37:50 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/80.
+2025-12-09 06:51:16 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-09 07:04:42 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/48.
+2025-12-09 07:18:09 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-09 07:31:35 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-09 07:45:02 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-09 07:58:28 [INFO] [AuthService] - Request processed in 201ms.
+2025-12-09 08:11:54 [ERROR] [PaymentGateway] - Payment failed for user 969, reason: Insufficient funds.
+2025-12-09 08:25:21 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-09 08:38:47 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-09 08:52:14 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-09 09:05:40 [INFO] [PaymentGateway] - Request processed in 246ms.
+2025-12-09 09:19:06 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-09 09:32:33 [ERROR] [DBConnection] - Payment failed for user 767, reason: Insufficient funds.
+2025-12-09 09:45:59 [ERROR] [DBConnection] - Unhandled exception in DBConnection: NullPointerException.
+2025-12-09 09:59:26 [INFO] [FrontendRouter] - Request processed in 500ms.
+2025-12-09 10:12:52 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:117.
+2025-12-09 10:26:18 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:455.
+2025-12-09 10:39:45 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:426.
+2025-12-09 10:53:11 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 11:06:38 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-09 11:20:04 [WARNING] [APIServer] - API response time degradation detected: 330ms.
+2025-12-09 11:33:30 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-09 11:46:57 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-09 12:00:23 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-09 12:13:50 [DEBUG] [APIServer] - Cache miss for key: user:profile:635.
+2025-12-09 12:27:16 [WARNING] [DBConnection] - Deprecated function getUserProfile_v1() called.
+2025-12-09 12:40:42 [ERROR] [FrontendRouter] - Payment failed for user 887, reason: Insufficient funds.
+2025-12-09 12:54:09 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-09 13:07:35 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-09 13:21:02 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-09 13:34:28 [DEBUG] [DBConnection] - Cache miss for key: user:profile:929.
+2025-12-09 13:47:54 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-09 14:01:21 [DEBUG] [DBConnection] - Checking permissions for user: 983
+2025-12-09 14:14:47 [DEBUG] [APIServer] - Checking permissions for user: 727
+2025-12-09 14:28:14 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/82.
+2025-12-09 14:41:40 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: IllegalArgumentException.
+2025-12-09 14:55:06 [INFO] [DBConnection] - User 890 logged in successfully.
+2025-12-09 15:08:33 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-09 15:21:59 [INFO] [APIServer] - Request processed in 58ms.
+2025-12-09 15:35:26 [ERROR] [PaymentGateway] - Payment failed for user 775, reason: Insufficient funds.
+2025-12-09 15:48:52 [DEBUG] [APIServer] - Checking permissions for user: 733
+2025-12-09 16:02:18 [INFO] [PaymentGateway] - User 475 logged in successfully.
+2025-12-09 16:15:45 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-09 16:29:11 [INFO] [AuthService] - Request processed in 486ms.
+2025-12-09 16:42:38 [INFO] [APIServer] - Starting background job: CacheClear.
+2025-12-09 16:56:04 [INFO] [AuthService] - Request processed in 326ms.
+2025-12-09 17:09:30 [DEBUG] [DataProcessor] - Checking permissions for user: 766
+2025-12-09 17:22:57 [DEBUG] [PaymentGateway] - Checking permissions for user: 557
+2025-12-09 17:36:23 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/43.
+2025-12-09 17:49:50 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-09 18:03:16 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-09 18:16:42 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/11.
+2025-12-09 18:30:09 [ERROR] [FrontendRouter] - Payment failed for user 451, reason: Insufficient funds.
+2025-12-09 18:43:35 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-09 18:57:02 [DEBUG] [PaymentGateway] - Checking permissions for user: 869
+2025-12-09 19:10:28 [WARNING] [FrontendRouter] - Configuration key 'user:profile:921' not found, using default.
+2025-12-09 19:23:54 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-09 19:37:21 [ERROR] [FrontendRouter] - Payment failed for user 878, reason: Insufficient funds.
+2025-12-09 19:50:47 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-09 20:04:14 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-09 20:17:40 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-09 20:31:06 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 20:44:33 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-09 20:57:59 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/84.
+2025-12-09 21:11:26 [ERROR] [APIServer] - Unhandled exception in APIServer: NullPointerException.
+2025-12-09 21:24:52 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-09 21:38:18 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-09 21:51:45 [INFO] [FrontendRouter] - Request processed in 114ms.
+2025-12-09 22:05:11 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/82.
+2025-12-09 22:18:38 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/75.
+2025-12-09 22:32:04 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-09 22:45:30 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-09 22:58:57 [INFO] [PaymentGateway] - User 727 logged in successfully.
+2025-12-09 23:12:23 [INFO] [AuthService] - User 611 logged in successfully.
+2025-12-09 23:25:50 [INFO] [APIServer] - User 657 logged in successfully.
+2025-12-09 23:39:16 [INFO] [PaymentGateway] - User 779 logged in successfully.
+2025-12-09 23:52:42 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-10 00:06:09 [DEBUG] [FrontendRouter] - Checking permissions for user: 859
+2025-12-10 00:19:35 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-10 00:33:02 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-10 00:46:28 [DEBUG] [AuthService] - Checking permissions for user: 233
+2025-12-10 00:59:54 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-10 01:13:21 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-10 01:26:47 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-10 01:40:14 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-10 01:53:40 [INFO] [AuthService] - User 870 logged in successfully.
+2025-12-10 02:07:06 [INFO] [FrontendRouter] - Request processed in 469ms.
+2025-12-10 02:20:33 [ERROR] [AuthService] - Unhandled exception in AuthService: IllegalArgumentException.
+2025-12-10 02:33:59 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-10 02:47:26 [WARNING] [DBConnection] - Deprecated function getUserProfile_v1() called.
+2025-12-10 03:00:52 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/60.
+2025-12-10 03:14:18 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:356.
+2025-12-10 03:27:45 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: NullPointerException.
+2025-12-10 03:41:11 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/87.
+2025-12-10 03:54:38 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-10 04:08:04 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:340.
+2025-12-10 04:21:30 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: NullPointerException.
+2025-12-10 04:34:57 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-10 04:48:23 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-10 05:01:50 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-10 05:15:16 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/41.
+2025-12-10 05:28:42 [ERROR] [APIServer] - Payment failed for user 699, reason: Insufficient funds.
+2025-12-10 05:42:09 [ERROR] [FrontendRouter] - Payment failed for user 458, reason: Insufficient funds.
+2025-12-10 05:55:35 [ERROR] [AuthService] - Unhandled exception in AuthService: IllegalArgumentException.
+2025-12-10 06:09:02 [INFO] [DBConnection] - Request processed in 66ms.
+2025-12-10 06:22:28 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:847.
+2025-12-10 06:35:54 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-10 06:49:21 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-10 07:02:47 [DEBUG] [FrontendRouter] - Checking permissions for user: 799
+2025-12-10 07:16:14 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-10 07:29:40 [WARNING] [DBConnection] - Configuration key 'user:profile:686' not found, using default.
+2025-12-10 07:43:06 [INFO] [DBConnection] - Starting background job: CacheClear.
+2025-12-10 07:56:33 [INFO] [DataProcessor] - Request processed in 195ms.
+2025-12-10 08:09:59 [ERROR] [DataProcessor] - Payment failed for user 809, reason: Insufficient funds.
+2025-12-10 08:23:26 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-10 08:36:52 [INFO] [DataProcessor] - User 423 logged in successfully.
+2025-12-10 08:50:18 [INFO] [PaymentGateway] - Request processed in 99ms.
+2025-12-10 09:03:45 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-10 09:17:11 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-10 09:30:38 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-10 09:44:04 [INFO] [DBConnection] - User 973 logged in successfully.
+2025-12-10 09:57:30 [DEBUG] [AuthService] - Checking permissions for user: 941
+2025-12-10 10:10:57 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-10 10:24:23 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-10 10:37:50 [DEBUG] [DBConnection] - Checking permissions for user: 431
+2025-12-10 10:51:16 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/28.
+2025-12-10 11:04:42 [WARNING] [AuthService] - Configuration key 'user:profile:858' not found, using default.
+2025-12-10 11:18:09 [WARNING] [AuthService] - Configuration key 'user:profile:129' not found, using default.
+2025-12-10 11:31:35 [INFO] [DBConnection] - User 885 logged in successfully.
+2025-12-10 11:45:02 [DEBUG] [DataProcessor] - Checking permissions for user: 490
+2025-12-10 11:58:28 [DEBUG] [PaymentGateway] - Checking permissions for user: 928
+2025-12-10 12:11:54 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-10 12:25:21 [ERROR] [AuthService] - Unhandled exception in AuthService: IllegalArgumentException.
+2025-12-10 12:38:47 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-10 12:52:14 [INFO] [AuthService] - Request processed in 197ms.
+2025-12-10 13:05:40 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-10 13:19:06 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-10 13:32:33 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/14.
+2025-12-10 13:45:59 [INFO] [DataProcessor] - User 319 logged in successfully.
+2025-12-10 13:59:26 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/39.
+2025-12-10 14:12:52 [INFO] [PaymentGateway] - User 151 logged in successfully.
+2025-12-10 14:26:18 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-10 14:39:45 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: NullPointerException.
+2025-12-10 14:53:11 [DEBUG] [PaymentGateway] - Payload received: '{...}'
+2025-12-10 15:06:38 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-10 15:20:04 [INFO] [FrontendRouter] - Request processed in 383ms.
+2025-12-10 15:33:30 [INFO] [DataProcessor] - Configuration loaded from environment.
+2025-12-10 15:46:57 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-10 16:00:23 [DEBUG] [DBConnection] - Checking permissions for user: 869
+2025-12-10 16:13:50 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-10 16:27:16 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-10 16:40:42 [DEBUG] [AuthService] - Checking permissions for user: 139
+2025-12-10 16:54:09 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-10 17:07:35 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-10 17:21:02 [INFO] [DataProcessor] - Starting background job: CacheClear.
+2025-12-10 17:34:28 [DEBUG] [AuthService] - Checking permissions for user: 368
+2025-12-10 17:47:54 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-10 18:01:21 [ERROR] [DBConnection] - Payment failed for user 144, reason: Insufficient funds.
+2025-12-10 18:14:47 [ERROR] [FrontendRouter] - Payment failed for user 917, reason: Insufficient funds.
+2025-12-10 18:28:14 [INFO] [PaymentGateway] - Request processed in 50ms.
+2025-12-10 18:41:40 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-10 18:55:06 [INFO] [AuthService] - User 203 logged in successfully.
+2025-12-10 19:08:33 [INFO] [PaymentGateway] - Request processed in 426ms.
+2025-12-10 19:21:59 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-10 19:35:26 [DEBUG] [DBConnection] - Checking permissions for user: 736
+2025-12-10 19:48:52 [INFO] [AuthService] - User 672 logged in successfully.
+2025-12-10 20:02:18 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-10 20:15:45 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-10 20:29:11 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-10 20:42:38 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-10 20:56:04 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:398.
+2025-12-10 21:09:30 [INFO] [AuthService] - Request processed in 238ms.
+2025-12-10 21:22:57 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/95.
+2025-12-10 21:36:23 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/90.
+2025-12-10 21:49:50 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-10 22:03:16 [INFO] [DataProcessor] - User 756 logged in successfully.
+2025-12-10 22:16:42 [INFO] [DBConnection] - Request processed in 482ms.
+2025-12-10 22:30:09 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/100.
+2025-12-10 22:43:35 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-10 22:57:02 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-10 23:10:28 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-10 23:23:54 [ERROR] [AuthService] - Unhandled exception in AuthService: NullPointerException.
+2025-12-10 23:37:21 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-10 23:50:47 [INFO] [APIServer] - User 122 logged in successfully.
+2025-12-11 00:04:14 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-11 00:17:40 [DEBUG] [DBConnection] - Cache miss for key: user:profile:660.
+2025-12-11 00:31:06 [DEBUG] [AuthService] - Cache miss for key: user:profile:740.
+2025-12-11 00:44:33 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-11 00:57:59 [INFO] [DataProcessor] - User 548 logged in successfully.
+2025-12-11 01:11:26 [WARNING] [DataProcessor] - Configuration key 'user:profile:775' not found, using default.
+2025-12-11 01:24:52 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-11 01:38:18 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-11 01:51:45 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-11 02:05:11 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-11 02:18:38 [WARNING] [APIServer] - Configuration key 'user:profile:850' not found, using default.
+2025-12-11 02:32:04 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-11 02:45:30 [DEBUG] [PaymentGateway] - Variable value: is_admin = false
+2025-12-11 02:58:57 [DEBUG] [DataProcessor] - Checking permissions for user: 548
+2025-12-11 03:12:23 [WARNING] [FrontendRouter] - API response time degradation detected: 351ms.
+2025-12-11 03:25:50 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-11 03:39:16 [ERROR] [APIServer] - Unhandled exception in APIServer: NullPointerException.
+2025-12-11 03:52:42 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-11 04:06:09 [ERROR] [DataProcessor] - Payment failed for user 199, reason: Insufficient funds.
+2025-12-11 04:19:35 [DEBUG] [DBConnection] - Cache miss for key: user:profile:935.
+2025-12-11 04:33:02 [INFO] [APIServer] - User 792 logged in successfully.
+2025-12-11 04:46:28 [INFO] [PaymentGateway] - User 975 logged in successfully.
+2025-12-11 04:59:54 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-11 05:13:21 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/53.
+2025-12-11 05:26:47 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-11 05:40:14 [INFO] [DataProcessor] - Request processed in 219ms.
+2025-12-11 05:53:40 [WARNING] [PaymentGateway] - Database connection pool nearing capacity.
+2025-12-11 06:07:06 [INFO] [DataProcessor] - User 648 logged in successfully.
+2025-12-11 06:20:33 [INFO] [APIServer] - User 104 logged in successfully.
+2025-12-11 06:33:59 [INFO] [FrontendRouter] - Starting background job: CacheClear.
+2025-12-11 06:47:26 [DEBUG] [DBConnection] - Checking permissions for user: 985
+2025-12-11 07:00:52 [INFO] [DBConnection] - Request processed in 446ms.
+2025-12-11 07:14:18 [INFO] [FrontendRouter] - Request processed in 145ms.
+2025-12-11 07:27:45 [INFO] [APIServer] - Request processed in 416ms.
+2025-12-11 07:41:11 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-11 07:54:38 [WARNING] [APIServer] - API response time degradation detected: 21ms.
+2025-12-11 08:08:04 [DEBUG] [PaymentGateway] - Checking permissions for user: 445
+2025-12-11 08:21:30 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-11 08:34:57 [ERROR] [DataProcessor] - Payment failed for user 359, reason: Insufficient funds.
+2025-12-11 08:48:23 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-11 09:01:50 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-11 09:15:16 [INFO] [DataProcessor] - Request processed in 471ms.
+2025-12-11 09:28:42 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:568.
+2025-12-11 09:42:09 [INFO] [PaymentGateway] - User 917 logged in successfully.
+2025-12-11 09:55:35 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-11 10:09:02 [DEBUG] [AuthService] - Checking permissions for user: 610
+2025-12-11 10:22:28 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-11 10:35:54 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-11 10:49:21 [INFO] [DataProcessor] - User 416 logged in successfully.
+2025-12-11 11:02:47 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: NullPointerException.
+2025-12-11 11:16:14 [INFO] [APIServer] - Request processed in 113ms.
+2025-12-11 11:29:40 [DEBUG] [DataProcessor] - Variable value: is_admin = false
+2025-12-11 11:43:06 [INFO] [DBConnection] - Configuration loaded from environment.
+2025-12-11 11:56:33 [INFO] [DataProcessor] - User 862 logged in successfully.
+2025-12-11 12:09:59 [INFO] [APIServer] - Request processed in 144ms.
+2025-12-11 12:23:26 [ERROR] [PaymentGateway] - Payment failed for user 358, reason: Insufficient funds.
+2025-12-11 12:36:52 [INFO] [AuthService] - User 243 logged in successfully.
+2025-12-11 12:50:18 [INFO] [APIServer] - User 256 logged in successfully.
+2025-12-11 13:03:45 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-11 13:17:11 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-11 13:30:38 [WARNING] [PaymentGateway] - Configuration key 'user:profile:528' not found, using default.
+2025-12-11 13:44:04 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/36.
+2025-12-11 13:57:30 [INFO] [APIServer] - Starting background job: ReportGenerator.
+2025-12-11 14:10:57 [DEBUG] [DataProcessor] - Variable value: is_admin = true
+2025-12-11 14:24:23 [ERROR] [APIServer] - Payment failed for user 182, reason: Insufficient funds.
+2025-12-11 14:37:50 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-11 14:51:16 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-11 15:04:42 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-11 15:18:09 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-11 15:31:35 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/38.
+2025-12-11 15:45:02 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/54.
+2025-12-11 15:58:28 [INFO] [PaymentGateway] - User 124 logged in successfully.
+2025-12-11 16:11:54 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-11 16:25:21 [WARNING] [PaymentGateway] - API response time degradation detected: 467ms.
+2025-12-11 16:38:47 [INFO] [DataProcessor] - Request processed in 268ms.
+2025-12-11 16:52:14 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/8.
+2025-12-11 17:05:40 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/55.
+2025-12-11 17:19:06 [ERROR] [DBConnection] - Payment failed for user 743, reason: Insufficient funds.
+2025-12-11 17:32:33 [WARNING] [APIServer] - Deprecated function getUserProfile_v1() called.
+2025-12-11 17:45:59 [INFO] [DBConnection] - Request processed in 100ms.
+2025-12-11 17:59:26 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-11 18:12:52 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-11 18:26:18 [INFO] [APIServer] - User 116 logged in successfully.
+2025-12-11 18:39:45 [WARNING] [AuthService] - Configuration key 'user:profile:875' not found, using default.
+2025-12-11 18:53:11 [DEBUG] [DBConnection] - Cache miss for key: user:profile:461.
+2025-12-11 19:06:38 [WARNING] [APIServer] - API response time degradation detected: 56ms.
+2025-12-11 19:20:04 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/17.
+2025-12-11 19:33:30 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-11 19:46:57 [INFO] [DBConnection] - Request processed in 362ms.
+2025-12-11 20:00:23 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-11 20:13:50 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-11 20:27:16 [DEBUG] [APIServer] - Cache miss for key: user:profile:704.
+2025-12-11 20:40:42 [ERROR] [DBConnection] - Failed to connect to database: Connection timed out.
+2025-12-11 20:54:09 [INFO] [DataProcessor] - Request processed in 488ms.
+2025-12-11 21:07:35 [WARNING] [DataProcessor] - Deprecated function getUserProfile_v1() called.
+2025-12-11 21:21:02 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-11 21:34:28 [INFO] [DataProcessor] - User 134 logged in successfully.
+2025-12-11 21:47:54 [DEBUG] [APIServer] - Cache miss for key: user:profile:112.
+2025-12-11 22:01:21 [INFO] [DBConnection] - Request processed in 403ms.
+2025-12-11 22:14:47 [DEBUG] [APIServer] - Variable value: is_admin = true
+2025-12-11 22:28:14 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-11 22:41:40 [INFO] [DataProcessor] - Request processed in 354ms.
+2025-12-11 22:55:06 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-11 23:08:33 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-11 23:21:59 [INFO] [DataProcessor] - User 666 logged in successfully.
+2025-12-11 23:35:26 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-11 23:48:52 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-12 00:02:18 [INFO] [FrontendRouter] - Starting background job: ReportGenerator.
+2025-12-12 00:15:45 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:262.
+2025-12-12 00:29:11 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 00:42:38 [DEBUG] [FrontendRouter] - Variable value: is_admin = false
+2025-12-12 00:56:04 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:766.
+2025-12-12 01:09:30 [INFO] [APIServer] - Request processed in 183ms.
+2025-12-12 01:22:57 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-12 01:36:23 [INFO] [DBConnection] - Request processed in 173ms.
+2025-12-12 01:49:50 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-12 02:03:16 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:586.
+2025-12-12 02:16:42 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-12 02:30:09 [INFO] [APIServer] - Request processed in 249ms.
+2025-12-12 02:43:35 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-12 02:57:02 [ERROR] [PaymentGateway] - Failed to connect to database: Connection timed out.
+2025-12-12 03:10:28 [ERROR] [DataProcessor] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 03:23:54 [DEBUG] [DataProcessor] - Checking permissions for user: 724
+2025-12-12 03:37:21 [ERROR] [DataProcessor] - Payment failed for user 693, reason: Insufficient funds.
+2025-12-12 03:50:47 [DEBUG] [DBConnection] - Cache miss for key: user:profile:672.
+2025-12-12 04:04:14 [DEBUG] [APIServer] - Cache miss for key: user:profile:697.
+2025-12-12 04:17:40 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-12 04:31:06 [ERROR] [APIServer] - Failed to connect to database: Connection timed out.
+2025-12-12 04:44:33 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-12 04:57:59 [ERROR] [DBConnection] - Payment failed for user 851, reason: Insufficient funds.
+2025-12-12 05:11:26 [INFO] [AuthService] - Data fetch complete for resource: /api/v2/items/90.
+2025-12-12 05:24:52 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-12 05:38:18 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-12 05:51:45 [INFO] [APIServer] - User 504 logged in successfully.
+2025-12-12 06:05:11 [DEBUG] [DBConnection] - Cache miss for key: user:profile:515.
+2025-12-12 06:18:38 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: NullPointerException.
+2025-12-12 06:32:04 [DEBUG] [APIServer] - Variable value: is_admin = false
+2025-12-12 06:45:30 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-12 06:58:57 [DEBUG] [APIServer] - Checking permissions for user: 434
+2025-12-12 07:12:23 [INFO] [DataProcessor] - Request processed in 218ms.
+2025-12-12 07:25:50 [INFO] [DataProcessor] - Request processed in 256ms.
+2025-12-12 07:39:16 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-12 07:52:42 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-12 08:06:09 [WARNING] [PaymentGateway] - API response time degradation detected: 375ms.
+2025-12-12 08:19:35 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-12 08:33:02 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-12 08:46:28 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-12 08:59:54 [INFO] [DataProcessor] - User 749 logged in successfully.
+2025-12-12 09:13:21 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-12 09:26:47 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: IllegalArgumentException.
+2025-12-12 09:40:14 [DEBUG] [PaymentGateway] - Checking permissions for user: 862
+2025-12-12 09:53:40 [INFO] [DataProcessor] - User 729 logged in successfully.
+2025-12-12 10:07:06 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 10:20:33 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-12 10:33:59 [WARNING] [AuthService] - Database connection pool nearing capacity.
+2025-12-12 10:47:26 [INFO] [AuthService] - Starting background job: CacheClear.
+2025-12-12 11:00:52 [INFO] [PaymentGateway] - Starting background job: ReportGenerator.
+2025-12-12 11:14:18 [INFO] [PaymentGateway] - Starting background job: CacheClear.
+2025-12-12 11:27:45 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-12 11:41:11 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/70.
+2025-12-12 11:54:38 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/93.
+2025-12-12 12:08:04 [DEBUG] [PaymentGateway] - Variable value: is_admin = false
+2025-12-12 12:21:30 [INFO] [AuthService] - User 466 logged in successfully.
+2025-12-12 12:34:57 [ERROR] [AuthService] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 12:48:23 [WARNING] [FrontendRouter] - Configuration key 'user:profile:665' not found, using default.
+2025-12-12 13:01:50 [DEBUG] [DBConnection] - Variable value: is_admin = false
+2025-12-12 13:15:16 [WARNING] [DataProcessor] - Configuration key 'user:profile:815' not found, using default.
+2025-12-12 13:28:42 [ERROR] [FrontendRouter] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 13:42:09 [DEBUG] [APIServer] - Cache miss for key: user:profile:479.
+2025-12-12 13:55:35 [INFO] [AuthService] - User 569 logged in successfully.
+2025-12-12 14:09:02 [INFO] [FrontendRouter] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-12 14:22:28 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/46.
+2025-12-12 14:35:54 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-12 14:49:21 [WARNING] [FrontendRouter] - API response time degradation detected: 493ms.
+2025-12-12 15:02:47 [WARNING] [DBConnection] - API response time degradation detected: 91ms.
+2025-12-12 15:16:14 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-12 15:29:40 [INFO] [DataProcessor] - Request processed in 60ms.
+2025-12-12 15:43:06 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/95.
+2025-12-12 15:56:33 [ERROR] [AuthService] - Payment failed for user 457, reason: Insufficient funds.
+2025-12-12 16:09:59 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 16:23:26 [DEBUG] [AuthService] - Checking permissions for user: 948
+2025-12-12 16:36:52 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:985.
+2025-12-12 16:50:18 [INFO] [PaymentGateway] - User 683 logged in successfully.
+2025-12-12 17:03:45 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/48.
+2025-12-12 17:17:11 [ERROR] [DBConnection] - Unhandled exception in DBConnection: IllegalArgumentException.
+2025-12-12 17:30:38 [WARNING] [PaymentGateway] - Deprecated function getUserProfile_v1() called.
+2025-12-12 17:44:04 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-12 17:57:30 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-12 18:10:57 [INFO] [DBConnection] - Request processed in 231ms.
+2025-12-12 18:24:23 [ERROR] [DBConnection] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-12 18:37:50 [ERROR] [PaymentGateway] - Payment failed for user 303, reason: Insufficient funds.
+2025-12-12 18:51:16 [INFO] [FrontendRouter] - User 620 logged in successfully.
+2025-12-12 19:04:42 [INFO] [FrontendRouter] - Request processed in 157ms.
+2025-12-12 19:18:09 [INFO] [DBConnection] - Data fetch complete for resource: /api/v2/items/27.
+2025-12-12 19:31:35 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-12 19:45:02 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-12 19:58:28 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-12 20:11:54 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-12 20:25:21 [WARNING] [PaymentGateway] - Configuration key 'user:profile:417' not found, using default.
+2025-12-12 20:38:47 [DEBUG] [FrontendRouter] - Variable value: is_admin = true
+2025-12-12 20:52:14 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-12 21:05:40 [INFO] [APIServer] - Starting background job: CacheClear.
+2025-12-12 21:19:06 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-12 21:32:33 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:792.
+2025-12-12 21:45:59 [ERROR] [FrontendRouter] - Payment failed for user 204, reason: Insufficient funds.
+2025-12-12 21:59:26 [WARNING] [DBConnection] - Database connection pool nearing capacity.
+2025-12-12 22:12:52 [INFO] [FrontendRouter] - Request processed in 487ms.
+2025-12-12 22:26:18 [INFO] [APIServer] - User 571 logged in successfully.
+2025-12-12 22:39:45 [DEBUG] [AuthService] - Cache miss for key: user:profile:988.
+2025-12-12 22:53:11 [DEBUG] [AuthService] - Variable value: is_admin = true
+2025-12-12 23:06:38 [ERROR] [AuthService] - Payment failed for user 165, reason: Insufficient funds.
+2025-12-12 23:20:04 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-12 23:33:30 [DEBUG] [DBConnection] - Payload received: '{...}'
+2025-12-12 23:46:57 [ERROR] [AuthService] - Failed to connect to database: Connection timed out.
+2025-12-13 00:00:23 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-13 00:13:50 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-13 00:27:16 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-13 00:40:42 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-13 00:54:09 [DEBUG] [DataProcessor] - Checking permissions for user: 512
+2025-12-13 01:07:35 [DEBUG] [AuthService] - Checking permissions for user: 818
+2025-12-13 01:21:02 [INFO] [DataProcessor] - User 255 logged in successfully.
+2025-12-13 01:34:28 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/91.
+2025-12-13 01:47:54 [WARNING] [PaymentGateway] - Configuration key 'user:profile:587' not found, using default.
+2025-12-13 02:01:21 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-13 02:14:47 [INFO] [APIServer] - Request processed in 64ms.
+2025-12-13 02:28:14 [INFO] [PaymentGateway] - Configuration loaded from environment.
+2025-12-13 02:41:40 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-13 02:55:06 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:299.
+2025-12-13 03:08:33 [DEBUG] [DataProcessor] - Checking permissions for user: 523
+2025-12-13 03:21:59 [ERROR] [FrontendRouter] - Failed to connect to database: Connection timed out.
+2025-12-13 03:35:26 [INFO] [AuthService] - Request processed in 144ms.
+2025-12-13 03:48:52 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-13 04:02:18 [INFO] [AuthService] - User 111 logged in successfully.
+2025-12-13 04:15:45 [INFO] [DataProcessor] - Data fetch complete for resource: /api/v2/items/46.
+2025-12-13 04:29:11 [INFO] [FrontendRouter] - User 760 logged in successfully.
+2025-12-13 04:42:38 [INFO] [AuthService] - User 315 logged in successfully.
+2025-12-13 04:56:04 [INFO] [PaymentGateway] - Starting background job: CacheClear.
+2025-12-13 05:09:30 [ERROR] [FrontendRouter] - Unhandled exception in FrontendRouter: IllegalArgumentException.
+2025-12-13 05:22:57 [DEBUG] [AuthService] - Cache miss for key: user:profile:216.
+2025-12-13 05:36:23 [INFO] [AuthService] - Starting background job: ReportGenerator.
+2025-12-13 05:49:50 [INFO] [PaymentGateway] - Request processed in 487ms.
+2025-12-13 06:03:16 [DEBUG] [APIServer] - Payload received: '{...}'
+2025-12-13 06:16:42 [WARNING] [DBConnection] - API response time degradation detected: 132ms.
+2025-12-13 06:30:09 [INFO] [DataProcessor] - Starting background job: ReportGenerator.
+2025-12-13 06:43:35 [INFO] [AuthService] - User 623 logged in successfully.
+2025-12-13 06:57:02 [ERROR] [DataProcessor] - Unhandled exception in DataProcessor: IllegalArgumentException.
+2025-12-13 07:10:28 [INFO] [DBConnection] - Request processed in 163ms.
+2025-12-13 07:23:54 [ERROR] [APIServer] - Unhandled exception in APIServer: IllegalArgumentException.
+2025-12-13 07:37:21 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-13 07:50:47 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-13 08:04:14 [ERROR] [APIServer] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-13 08:17:40 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-13 08:31:06 [INFO] [DBConnection] - User 796 logged in successfully.
+2025-12-13 08:44:33 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-13 08:57:59 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-13 09:11:26 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-13 09:24:52 [DEBUG] [PaymentGateway] - Variable value: is_admin = true
+2025-12-13 09:38:18 [DEBUG] [DataProcessor] - Cache miss for key: user:profile:118.
+2025-12-13 09:51:45 [INFO] [AuthService] - Configuration loaded from environment.
+2025-12-13 10:05:11 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-13 10:18:38 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:132.
+2025-12-13 10:32:04 [ERROR] [DataProcessor] - Payment failed for user 553, reason: Insufficient funds.
+2025-12-13 10:45:30 [ERROR] [PaymentGateway] - Unhandled exception in PaymentGateway: NullPointerException.
+2025-12-13 10:58:57 [INFO] [AuthService] - Request processed in 375ms.
+2025-12-13 11:12:23 [INFO] [PaymentGateway] - User 447 logged in successfully.
+2025-12-13 11:25:50 [ERROR] [FrontendRouter] - Payment failed for user 837, reason: Insufficient funds.
+2025-12-13 11:39:16 [WARNING] [FrontendRouter] - Database connection pool nearing capacity.
+2025-12-13 11:52:42 [DEBUG] [DataProcessor] - Payload received: '{...}'
+2025-12-13 12:06:09 [INFO] [APIServer] - Configuration loaded from environment.
+2025-12-13 12:19:35 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/73.
+2025-12-13 12:33:02 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-13 12:46:28 [INFO] [FrontendRouter] - Request processed in 287ms.
+2025-12-13 12:59:54 [DEBUG] [DBConnection] - Variable value: is_admin = true
+2025-12-13 13:13:21 [INFO] [AuthService] - Request processed in 302ms.
+2025-12-13 13:26:47 [WARNING] [DataProcessor] - Database connection pool nearing capacity.
+2025-12-13 13:40:14 [INFO] [APIServer] - Request processed in 393ms.
+2025-12-13 13:53:40 [DEBUG] [PaymentGateway] - Cache miss for key: user:profile:573.
+2025-12-13 14:07:06 [DEBUG] [APIServer] - Checking permissions for user: 253
+2025-12-13 14:20:33 [INFO] [PaymentGateway] - Data fetch complete for resource: /api/v2/items/71.
+2025-12-13 14:33:59 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/32.
+2025-12-13 14:47:26 [DEBUG] [AuthService] - Variable value: is_admin = false
+2025-12-13 15:00:52 [WARNING] [FrontendRouter] - Deprecated function getUserProfile_v1() called.
+2025-12-13 15:14:18 [ERROR] [PaymentGateway] - Could not resolve dependency: com.example.library:1.2.3.
+2025-12-13 15:27:45 [INFO] [AuthService] - User 396 logged in successfully.
+2025-12-13 15:41:11 [DEBUG] [APIServer] - Cache miss for key: user:profile:884.
+2025-12-13 15:54:38 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/93.
+2025-12-13 16:08:04 [WARNING] [AuthService] - Deprecated function getUserProfile_v1() called.
+2025-12-13 16:21:30 [DEBUG] [AuthService] - Payload received: '{...}'
+2025-12-13 16:34:57 [DEBUG] [FrontendRouter] - Cache miss for key: user:profile:546.
+2025-12-13 16:48:23 [DEBUG] [AuthService] - Cache miss for key: user:profile:342.
+2025-12-13 17:01:50 [INFO] [DBConnection] - User 886 logged in successfully.
+2025-12-13 17:15:16 [DEBUG] [FrontendRouter] - Checking permissions for user: 218
+2025-12-13 17:28:42 [WARNING] [FrontendRouter] - API response time degradation detected: 87ms.
+2025-12-13 17:42:09 [INFO] [APIServer] - Request processed in 16ms.
+2025-12-13 17:55:35 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-13 18:09:02 [ERROR] [DataProcessor] - Failed to connect to database: Connection timed out.
+2025-12-13 18:22:28 [DEBUG] [FrontendRouter] - Payload received: '{...}'
+2025-12-13 18:35:54 [WARNING] [APIServer] - Database connection pool nearing capacity.
+2025-12-13 18:49:21 [INFO] [DBConnection] - Request processed in 79ms.
+2025-12-13 19:02:47 [INFO] [APIServer] - Data fetch complete for resource: /api/v2/items/68.
+2025-12-13 19:16:14 [DEBUG] [PaymentGateway] - Checking permissions for user: 804
+2025-12-13 19:29:40 [INFO] [FrontendRouter] - Configuration loaded from environment.
+2025-12-13 19:43:06 [INFO] [DBConnection] - User 388 logged in successfully.
+2025-12-13 19:56:33 [INFO] [DBConnection] - Starting background job: ReportGenerator.
+2025-12-13 20:09:59 [INFO] [AuthService] - Configuration loaded from environment.
