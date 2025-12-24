@@ -203,21 +203,26 @@ def _generate_query_variants(query: str) -> List[str]:
     def remove_ordinals(text: str) -> str:
         return re.sub(r"\b(\d+)(st|nd|rd|th)\b", r"\1", text)
 
-    # Clean query by removing ordinals and commas
     cleaned_query = remove_ordinals(base_query)
     cleaned_query = cleaned_query.replace(",", "")
     variants.add(cleaned_query)
 
-    # Attempt to parse a date from the cleaned query
     try:
-        # fuzzy=True helps parse dates from strings like "errors from December 13"
-        parsed_date = dateutil_parser.parse(cleaned_query, fuzzy=True)
+        month_pattern = r"(january|february|march|april|may|june|july|august|september|october|november|december)"
+        match = re.search(month_pattern, cleaned_query, re.IGNORECASE)
+
+        if match:
+            start_pos = max(0, match.start() - 15)
+            end_pos = min(len(cleaned_query), match.end() + 15)
+            substring_to_parse = cleaned_query[start_pos:end_pos]
+            parsed_date = dateutil_parser.parse(substring_to_parse, fuzzy=True)
+        else:
+            parsed_date = dateutil_parser.parse(cleaned_query, fuzzy=True)
+
         _add_date_variants_for_datetime(parsed_date, variants)
     except (ValueError, TypeError):
-        # This occurs if no date is found in the string.
         pass
 
-    # Handle relative time queries
     if latest_log_timestamp:
         relative_patterns = [
             (re.compile(r"(last|past)\s+24\s+hours"), timedelta(hours=24)),
@@ -225,10 +230,9 @@ def _generate_query_variants(query: str) -> List[str]:
         ]
         for pattern, delta in relative_patterns:
             if pattern.search(base_query):
-                # Add variants for the last 24 hours from the most recent log entry
                 _add_date_variants_for_datetime(latest_log_timestamp, variants)
                 _add_date_variants_for_datetime(latest_log_timestamp - delta, variants)
-
+    
     return [variant for variant in variants if variant]
 
 
@@ -257,20 +261,17 @@ def _keyword_chunk_search(query: str, limit: int = 3) -> List[str]:
         lowered_chunk = chunk.lower()
 
         # The chunk must contain a match for one of the generated date variants
-        # This is the fix from the previous step.
         has_date_match = any(variant in lowered_chunk for variant in all_variants)
         if not has_date_match:
             continue
 
         # Additionally, the chunk must contain ALL of the identified content keywords.
-        # This makes the keyword search much more relevant.
-        # If there are no content keywords, the date match is sufficient.
         if not content_keywords or all(keyword in lowered_chunk for keyword in content_keywords):
             matches.append(chunk)
 
         if len(matches) >= limit:
             break
-
+    
     return matches
 
 
