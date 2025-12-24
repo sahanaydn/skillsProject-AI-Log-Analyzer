@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import re
 import numpy as np
 import faiss
+from dateutil import parser as dateutil_parser
 from sentence_transformers import SentenceTransformer
 
 faiss_index: faiss.Index | None = None
@@ -178,43 +179,53 @@ def process_log_file(log_data: List[str]) -> Dict[str, Any]:
 
 def _add_date_variants_for_datetime(dt: datetime, variants: set[str]) -> None:
     month = dt.strftime("%B").lower()
-    day = dt.strftime("%d").lstrip("0")
     year = dt.strftime("%Y")
-    variants.add(f"{month} {day}")
-    variants.add(f"{day} {month}")
-    variants.add(f"{month} {day}, {year}")
-    variants.add(f"{month} {day} {year}")
+    
+    # Generate variants for both padded ('08') and non-padded ('8') days
+    day_padded = dt.strftime("%d")
+    day_unpadded = day_padded.lstrip("0")
+    
+    # Use a set to avoid duplicates if day is two digits (e.g., '13' and lstrip('0') is still '13')
+    days_to_try = {day_padded, day_unpadded}
+
+    for day in days_to_try:
+        if not day: continue # handles case where day is '00' or similar, lstrip makes it empty
+        variants.add(f"{month} {day}")
+        variants.add(f"{day} {month}")
+        variants.add(f"{month} {day}, {year}")
+        variants.add(f"{month} {day} {year}")
 
 
 def _generate_query_variants(query: str) -> List[str]:
-    base = query.lower().strip()
-    variants = {base}
+    base_query = query.lower().strip()
+    variants = {base_query}
 
     def remove_ordinals(text: str) -> str:
         return re.sub(r"\b(\d+)(st|nd|rd|th)\b", r"\1", text)
 
-    variants.add(remove_ordinals(base))
-    variants.add(base.replace(",", ""))
-    variants.add(remove_ordinals(base.replace(",", "")))
+    # Clean query by removing ordinals and commas
+    cleaned_query = remove_ordinals(base_query)
+    cleaned_query = cleaned_query.replace(",", "")
+    variants.add(cleaned_query)
 
-    month_pattern = re.compile(
-        r"(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})(?:,\s*(\d{4}))?"
-    )
-    for match in month_pattern.finditer(base):
-        month = match.group(1)
-        day = match.group(2)
-        year = match.group(3) or datetime.now().strftime("%Y")
-        variants.add(f"{month} {day}")
-        variants.add(f"{day} {month}")
-        variants.add(f"{month} {day}, {year}")
+    # Attempt to parse a date from the cleaned query
+    try:
+        # fuzzy=True helps parse dates from strings like "errors from December 13"
+        parsed_date = dateutil_parser.parse(cleaned_query, fuzzy=True)
+        _add_date_variants_for_datetime(parsed_date, variants)
+    except (ValueError, TypeError):
+        # This occurs if no date is found in the string.
+        pass
 
+    # Handle relative time queries
     if latest_log_timestamp:
         relative_patterns = [
             (re.compile(r"(last|past)\s+24\s+hours"), timedelta(hours=24)),
             (re.compile(r"(last|past)\s+day"), timedelta(days=1)),
         ]
         for pattern, delta in relative_patterns:
-            if pattern.search(base):
+            if pattern.search(base_query):
+                # Add variants for the last 24 hours from the most recent log entry
                 _add_date_variants_for_datetime(latest_log_timestamp, variants)
                 _add_date_variants_for_datetime(latest_log_timestamp - delta, variants)
 
@@ -222,17 +233,44 @@ def _generate_query_variants(query: str) -> List[str]:
 
 
 def _keyword_chunk_search(query: str, limit: int = 3) -> List[str]:
-    variants = _generate_query_variants(query)
-    if not variants:
-        return []
+    # Get all variants, including date and original query text
+    all_variants = _generate_query_variants(query)
+
+    # Isolate content keywords from the original query to make the search more specific
+    query_words = set(query.lower().split())
+    date_related_words = {
+        "january", "february", "march", "april", "may", "june", "july",
+        "august", "september", "october", "november", "december",
+        "last", "past", "hours", "day"
+    }
+    # Add common ordinals and numbers
+    date_related_words.update(str(d) for d in range(1, 32))
+    date_related_words.update(f"{d}{s}" for d in range(1, 32) for s in ["st", "nd", "rd", "th"])
+
+    stopwords = {"what", "is", "teh", "the", "on", "in", "from", "observed", "most", "common", "a", "were", "of", "find", "all"}
+
+    # Identify content keywords by removing stopwords and date-related words
+    content_keywords = query_words - stopwords - date_related_words
 
     matches = []
     for chunk in log_chunks_storage:
-        lowered = chunk.lower()
-        if any(variant in lowered for variant in variants):
+        lowered_chunk = chunk.lower()
+
+        # The chunk must contain a match for one of the generated date variants
+        # This is the fix from the previous step.
+        has_date_match = any(variant in lowered_chunk for variant in all_variants)
+        if not has_date_match:
+            continue
+
+        # Additionally, the chunk must contain ALL of the identified content keywords.
+        # This makes the keyword search much more relevant.
+        # If there are no content keywords, the date match is sufficient.
+        if not content_keywords or all(keyword in lowered_chunk for keyword in content_keywords):
             matches.append(chunk)
+
         if len(matches) >= limit:
             break
+
     return matches
 
 

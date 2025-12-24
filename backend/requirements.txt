@@ -5,3 +5,4 @@ sentence-transformers
 faiss-cpu
 python-multipart
 python-dotenv
+python-dateutil
